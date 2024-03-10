@@ -1,0 +1,11 @@
+type: Item
+flammability: 0.5
+explosivity: 0
+healthScaling: 0.02
+radioactivity: 0
+charge: 0
+cost: 0.2
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
