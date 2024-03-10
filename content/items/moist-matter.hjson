@@ -1,0 +1,13 @@
+type: Item
+flammability: 0
+explosivity: 0.2
+healthScaling: 0.01
+radioactivity: 0
+charge: 0
+cost: 0.2
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Moist matter
+description: Slightly wet material. A good first step towards bending water.
