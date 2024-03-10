@@ -1,1 +1,7 @@
-
+name: avatarmod
+displayName: Avatardustry
+author: Haznobrain
+description:
+  adds a new planet where you must master the 4 elements to beat new ennemies!
+version: 1
+minGameVersion: 146
