@@ -1,1 +1,13 @@
-
+type: Item
+flammability: 0
+explosivity: 0
+healthScaling: 0.03
+radioactivity: 0
+charge: 0
+cost: 0.2
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Dirt Lump
+description: the self explanatory first step in the mastery of earth.
