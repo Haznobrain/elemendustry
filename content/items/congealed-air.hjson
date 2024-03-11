@@ -1,1 +1,14 @@
-
+type: Item
+flammability: 0
+explosivity: 0.75
+healthScaling: 0.03
+radioactivity: 0
+charge: 0
+cost: 0.2
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Congealed Air
+description: Solidified air is probably a good thing to play with for begginers. Volatile.
+color: ceddff
