@@ -1,1 +1,14 @@
-
+type: Item
+flammability: 0
+explosivity: 0
+healthScaling: 0.03
+radioactivity: 0
+charge: 0
+cost: 0.3
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Pyroclastic Quartz
+description: A stable fire related crystal that can be used in construction.
+color: fff5ee
