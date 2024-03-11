@@ -1,0 +1,8 @@
+type: ItemBridge
+range: 5
+name: Asbestos Conveyor
+description: Moves items through the air on short distances.
+requirements: [
+    congealed-air/10
+    asbestos/10
+      ]
