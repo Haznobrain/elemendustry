@@ -1,1 +1,14 @@
-
+type: Item
+flammability: 0
+explosivity: 0
+healthScaling: 0.02
+radioactivity: 0
+charge: 0
+cost: 0.2
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Aquamarine
+description: The base building block of a lot of minerals.
+color: b2fff0
