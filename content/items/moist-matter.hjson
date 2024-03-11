@@ -11,3 +11,4 @@ hiddenOnPlanets: [
     ]
 name: Moist matter
 description: Slightly wet material. A good first step towards bending water.
+color: 3584f9
