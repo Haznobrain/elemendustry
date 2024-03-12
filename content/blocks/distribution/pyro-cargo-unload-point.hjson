@@ -4,3 +4,4 @@ descriptions: Configurable unload points to wich pyro cargo units will fly to if
 requirements: [
     pyroclastic-quartz/60
     ]
+size: 1
