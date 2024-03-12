@@ -1,5 +1,5 @@
 type: StackConveyor
-speed: 6
+speed: 0.1
 itemCapacity: 5
 requirements: [
   silica/10
