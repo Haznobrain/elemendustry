@@ -1,0 +1,3 @@
+type: UnitCargoUnloadPoint
+name: Pyro cargo unload point
+descriptions: Configurable unload points to wich pyro cargo units will fly to if they're carrying its set item.
