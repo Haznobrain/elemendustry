@@ -5,3 +5,4 @@ requirements: [
     pyroclastic-quartz/60
     ]
 size: 1
+itemCapacity: 40
