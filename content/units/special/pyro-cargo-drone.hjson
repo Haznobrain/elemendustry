@@ -15,3 +15,4 @@ drag: 0.06
 controller: CargoAi
 canAttack: false
 drawMinimap: false
+itemCapacity: 20
