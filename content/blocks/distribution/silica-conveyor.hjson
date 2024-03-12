@@ -1,0 +1,7 @@
+type: StackConveyor
+speed: 2
+itemCapacity: 5
+requirements: [
+  silica/10
+  dirt-lump/10
+]
