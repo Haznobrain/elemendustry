@@ -7,10 +7,6 @@ size: 1
 consumes:{
     liquid: water/0.05
       }
-drawer: {
-  type: DrawTurret
-  basePrefix: aqua-
-    }
   range:336
   requirements: [
       moist-matter/40
