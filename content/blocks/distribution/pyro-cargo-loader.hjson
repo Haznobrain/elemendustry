@@ -1,5 +1,6 @@
 unitType: pyro-cargo-drone
 type: UnitCargoLoader
+size: 2
 buildTime: 600
 itemCapacity: 40
 name: Pyro Cargo Loader
