@@ -1,9 +1,8 @@
 type: tether
 flying: true
-hitSize: 8
+hitSize: 1
 speed: 4.8
 health: 100
-crashDamageMultiplier: 0
 engineOffset: 5
 engineSize: 3
 itemOffsetY: 0
@@ -15,5 +14,4 @@ itemCapacity: 20
 drag: 0.06
 controller: CargoAi
 canAttack: false
-hidden: true
 drawMinimap: false
