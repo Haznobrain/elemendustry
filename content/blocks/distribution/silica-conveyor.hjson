@@ -1,7 +1,9 @@
 type: StackConveyor
-speed: 2
+speed: 6
 itemCapacity: 5
 requirements: [
   silica/10
   dirt-lump/10
 ]
+name: Silica Conveyor
+description: Moves stacks of items.
