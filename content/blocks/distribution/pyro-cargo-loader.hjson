@@ -2,6 +2,8 @@ unitType: pyro-cargo-drone
 type: UnitCargoLoader
 buildTime: 600
 itemCapacity: 40
+name: Pyro Cargo Loader
+description: Builds pyro cargo drones that will deliver items to set unload points.
 consumes: {
     items: [
         incandescent-matter/10
