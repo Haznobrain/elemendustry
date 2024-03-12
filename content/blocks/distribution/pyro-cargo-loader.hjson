@@ -1,0 +1,15 @@
+unitType: pyro-cargo-drone
+type: UnitCargoLoader
+buildTime: 600
+itemCapacity: 40
+consumes: {
+    items: [
+        incandescent-matter/10
+        pyroclastic-quartz/5
+          ]
+      }
+polyRadius: 5
+requirements: [
+      incandescent-matter/40
+      pyroclastic-quarts/50
+        ]
