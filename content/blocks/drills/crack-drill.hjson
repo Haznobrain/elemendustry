@@ -3,6 +3,9 @@ shake: 1
 arrowSpacing: 2
 arrowColor: 66fcb6
 tier: 2
+size: 2
+name: Crack Drill
+description: Mines earth type ores. Less efficient at other ores. Mines in bursts.
 itemCapacity: 40
 drillTime: 900
 drillMultipliers: {
