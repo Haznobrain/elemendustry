@@ -13,5 +13,5 @@ consumes: {
 polyRadius: 5
 requirements: [
       incandescent-matter/40
-      pyroclastic-quarts/50
+      pyroclastic-quartz/50
         ]
