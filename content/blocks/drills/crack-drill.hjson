@@ -5,16 +5,16 @@ arrowColor: 66fcb6
 tier: 2
 itemCapacity: 40
 drillTime: 900
-drillMultipliers: [
-    dirt-lump/2
-    silica/2
-    incandescent-matter/0.75
-    pyroclastic-quartz/0.75
-    moist-matter/0.5
-    aquamarine/0.5
-    congealed-air/0.4
-    asbestos/0.4
-    ]
+drillMultipliers: {
+    dirt-lump: 2
+    silica: 2
+    incandescent-matter: 0.75
+    pyroclastic-quartz: 0.75
+    moist-matter: 0.5
+    aquamarine: 0.5
+    congealed-air: 0.4
+    asbestos: 0.4
+    }
   requirements: [
     silica/40
     dirt-lump/40
