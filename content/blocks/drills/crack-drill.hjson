@@ -8,6 +8,7 @@ name: Crack Drill
 description: Mines earth type ores. Less efficient at other ores. Mines in bursts.
 itemCapacity: 40
 drillTime: 900
+category: production
 drillMultipliers: {
     dirt-lump: 2
     silica: 2
