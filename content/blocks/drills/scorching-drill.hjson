@@ -15,12 +15,13 @@ drillMultipliers: {
     moist-matter: 0.4
     aquamarine: 0.4
     congealed-air: 0.75
-    asbestos: 0.75
     }
   requirements: [
     incandescent-matter/40
     pyroclastic-quartz/40
     ]
+drillEffectRnd: 0
+blockedItem: asbestos
 drillEffect: {
   type: RadialEffect
     effect: {
