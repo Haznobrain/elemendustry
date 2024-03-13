@@ -1,2 +1,37 @@
 type: Drill
 tier: 1
+size: 2
+name: Scroch Drill
+description: Burns through ores to extract them.
+itemCapacity: 40
+drillTime: 500
+category: production
+drillMultipliers: {
+    dirt-lump: 0.75
+    silica: 0.5
+    incandescent-matter: 2
+    pyroclastic-quartz: 2
+    moist-matter: 0.4
+    aquamarine: 0.4
+    congealed-air: 0.75
+    asbestos: 0.75
+    }
+  requirements: [
+    incandescent-matter/40
+    pyroclastic-quartz/40
+    ]
+updateEffectChance: 1
+updateEffect: {
+  type: RadialEffect
+    effect: {
+      type: ParticleEffect
+      length: 24
+      particles: 10
+      SizeFrom: 5
+      ColorFrom: f1f1f1
+      ColorTo: 888888
+      lifetime: 60
+      cone: 20
+      }
+  }
+loopSound: smelter
