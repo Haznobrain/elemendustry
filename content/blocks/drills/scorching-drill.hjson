@@ -20,7 +20,7 @@ drillMultipliers: {
     incandescent-matter/40
     pyroclastic-quartz/40
     ]
-updateEffectChance: 1
+updateEffectChance: 0.05
 updateEffect: {
   type: RadialEffect
     effect: {
