@@ -1,0 +1,18 @@
+type: GenericCrafter
+outputLiquid: water/0.5
+craftTime: 60
+updateEffect: {
+    type: ParticleEffect
+    particles: 10
+    colorFrom: 91d4ff
+    length: 12
+      }
+size: 1
+consumes: {
+    moist-matter/2
+      }
+requirements: [
+    aquamarine/60
+    ]
+name: Water Squeezer
+description: Squeezes the water out of moist matter, outputting porous stone as a result item.
