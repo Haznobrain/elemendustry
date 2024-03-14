@@ -21,8 +21,9 @@ drillMultipliers: {
     pyroclastic-quartz/40
     ]
 drillEffectRnd: 0
+updateEffectChance: 0.01
 blockedItem: asbestos
-drillEffect: {
+updateEffect: {
   type: RadialEffect
     effect: {
       type: ParticleEffect
