@@ -10,7 +10,9 @@ updateEffect: {
 outputItem: porous-stone/1
 size: 1
 consumes: {
-    moist-matter/2
+    items:[
+            moist-matter/2
+            ]
       }
 requirements: [
     aquamarine/60
