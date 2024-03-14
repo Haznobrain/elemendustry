@@ -1,6 +1,8 @@
 type: GenericCrafter
 outputLiquid: water/0.5
 craftTime: 60
+category: crafting
+size: 2
 updateEffect: {
     type: ParticleEffect
     particles: 10
