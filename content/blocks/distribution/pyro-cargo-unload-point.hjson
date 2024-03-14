@@ -6,3 +6,6 @@ requirements: [
     ]
 size: 1
 itemCapacity: 40
+consumes: {
+    power: 0.25
+    }
