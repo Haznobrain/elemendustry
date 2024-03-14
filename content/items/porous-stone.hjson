@@ -1,1 +1,14 @@
-
+type: Item
+flammability: 0.2
+explosivity: 0
+healthScaling: 0.01
+radioactivity: 0
+charge: 0
+cost: 0.4
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Porous Stone
+description: Used for basic building of every type. Very sponge-like.
+color: e7e7e7
