@@ -10,7 +10,6 @@ updateEffect: {
     length: 12
       }
 outputItem: porous-stone/1
-size: 1
 consumes: {
     items:[
             moist-matter/2
