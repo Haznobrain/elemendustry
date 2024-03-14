@@ -4,6 +4,9 @@ size: 2
 separateItemCapacity: true
 buildTime: 600
 itemCapacity: 40
+consumes: {
+    power: 0.25
+    }
 name: Pyro Cargo Loader
 description: Builds pyro cargo drones that will deliver items to set unload points.
 polyRadius: 5
