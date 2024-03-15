@@ -10,7 +10,6 @@ liquid:sag
 amount: 0.5
 }
 ]
-  ]
   liquidOutputDirections:[
       1,
       3
