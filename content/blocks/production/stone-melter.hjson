@@ -1,0 +1,54 @@
+type: GenericCrafter
+outputLiquids: [
+{
+liquid: slag
+amount: 0.25
+}
+{
+liquid:sag
+amount: 0.5
+}
+]
+  ]
+  liquidOutputDirections:[
+      1,
+      3
+    ]
+drawer: {
+    type: DrawMulti
+      drawers:[
+        {
+          type: DrawRegion
+          suffix: -bottom
+        }
+        {
+          type: DrawLiquidTile
+          suffix: -liquid
+          liquid: slag
+        }
+        {
+          type: DrawRegion
+          suffix: -top
+        }
+        {
+          type: DrawLiquidOutputs
+            }
+      ]
+}
+ambientSound: smelter
+consumes: {
+  power: 1.5
+  items: [
+      porous-stone/2
+    ]
+    }
+craftTime: 60
+liquidCapacity: 20
+itemCapacity: 20
+name: Stone Melter
+description: Melts porous stone into slag and sag.
+requirements:[
+    porous-stone/40
+    pyroclastic-quartz/40
+    incandescent-matter/40
+  ]
