@@ -32,7 +32,7 @@ drawer: {
         }
         {
           type: DrawLiquidOutputs
-            }
+        }
       ]
 }
 ambientSound: smelter
