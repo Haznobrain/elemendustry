@@ -1,0 +1,9 @@
+type: Liquid
+color: 61615b
+flammability: 0
+temperature: 0.8
+heatCapacity: 0.1
+viscosity: 0.8
+capPuddles: false
+name: Sag
+details: molten rock, not very useful.
