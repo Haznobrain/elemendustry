@@ -2,6 +2,7 @@ type: tether
 flying: true
 hitSize: 1
 speed: 4.8
+payloadCapacity: 0
 health: 100
 engineOffset: 5
 engineSize: 3
