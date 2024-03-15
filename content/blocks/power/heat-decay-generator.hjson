@@ -21,7 +21,6 @@ drawer: {
       {
         type: DrawHeatRegion
         color: ff0000
-        layer: -1
         suffix: -heat
           }
     ]
