@@ -2,10 +2,11 @@ type: ConsumeGenerator
 consumes: {
   item: incandescent-matter
     }
+ambientSound: hum
 size: 1
 category: power
 consumeEffect: fuelburn
-itemDuration: 5
+itemDuration: 300
 powerProduction: 0.75
 name: Heat Decay Generator
 description: Creates small amounts of power from the bit of heat coming off of incandescent matter.
