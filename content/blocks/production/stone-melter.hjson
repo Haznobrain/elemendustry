@@ -2,7 +2,9 @@ type: GenericCrafter
 category: crafting
 size: 1
 rotate: true
-rotateDraw: false
+hasLiquids: true
+regionRotated1: 3
+inverFlip: true
 outputLiquids: [
 {
 liquid: slag
