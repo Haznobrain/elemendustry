@@ -1,0 +1,31 @@
+type: ConsumeGenerator
+consumes: {
+  item: incandescent-matter
+    }
+itemDuration: 5
+powerProduction: 0.75
+name: Heat Decay Generator
+description: Creates small amounts of power from the bit of heat coming off of incandescent matter.
+details: basic generation is always a nice thing
+drawer: {
+  type: DrawMulti
+      drawers: [
+      {
+        type: DrawRegion
+        sufix: -bottom
+       }
+      {
+        type: DrawHeatRegion
+        color: ff0000
+        suffix: -heat
+          }
+      {
+        type: DrawRegion
+        sufix: -top
+          }
+]
+}
+requirements: [
+      pyroclastic-quartz/60
+      porous-stone/40
+  ]
