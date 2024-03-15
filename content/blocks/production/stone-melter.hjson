@@ -23,7 +23,6 @@ drawer: {
         }
         {
           type: DrawLiquidTile
-          suffix: -liquid
           drawLiquid: slag
         }
         {
