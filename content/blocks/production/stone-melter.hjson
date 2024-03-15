@@ -24,7 +24,7 @@ drawer: {
         {
           type: DrawLiquidTile
           suffix: -liquid
-          liquid: slag
+          drawLiquid: slag
         }
         {
           type: DrawRegion
