@@ -2,6 +2,9 @@ type: ConsumeGenerator
 consumes: {
   item: incandescent-matter
     }
+size: 1
+category: power
+consumeEffect: fuelburn
 itemDuration: 5
 powerProduction: 0.75
 name: Heat Decay Generator
@@ -23,7 +26,7 @@ drawer: {
         type: DrawRegion
         sufix: -top
           }
-]
+    ]
 }
 requirements: [
       pyroclastic-quartz/60
