@@ -4,7 +4,7 @@ size: 1
 rotate: true
 hasLiquids: true
 regionRotated1: 3
-inverFlip: true
+invertFlip: true
 outputLiquids: [
 {
 liquid: slag
