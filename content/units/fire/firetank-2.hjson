@@ -1,0 +1,114 @@
+type: tank
+  name: Scald
+description: Fires fragmenting fire bullets. Melts nearby ennemy buildings due to its molten core.
+faceTarget: false
+omniMovement: false
+immunities: [
+  burning,
+  melting
+  ]
+abilities: [
+    {
+    type: StatusFieldAbility
+    effect: burning
+    reload: 60
+    range: 32
+    }
+    {
+    type: StatusFieldAbility
+    effect: overclock
+    reload: 600
+    range: 24
+    }
+    {
+    type: EnergyFieldAbility
+    damage: 3
+    reload: 12
+    range: 40
+    status: melting
+    shootSound: torch
+    hitUnits: false
+    healAmount: 0.1
+    color: ffa245
+    damageEffect: {
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
+    hitEffect: {
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
+      displayHeal: false
+      sectors: 0
+        }
+  ]
+crushDamage: 0.5
+health: 1050
+armor: 7
+speed: 0.93
+hitSize: 20
+treadPullOffset: 10
+treadRects: [
+  {
+    x: 25
+    y: -44
+    height: 24
+    width: 6
+  }
+  {
+    x: -25
+    y: -44
+    height: 24
+    width: 6
+  }
+]
+rotateSpeed: 3
+weapons: [
+  {
+    name: firetank-2-weapon
+    reload: 90
+    range: 176
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    bullet: {
+      makeFire: true
+      type: BasicBulletType
+      speed: 4
+      lifetime: 44
+      damage: 45
+      trailEffect: ballfire
+      trailEffectChance: 0.8
+      trailInterval: 10
+      status: burning
+      trailLength: 25
+      trailWidth: 2
+      sprite: missile
+      width: 8
+      shrinkY: 0
+      shrinkX: 0.5
+      height: 8
+      trailColor: ff8b54
+      status: burning
+      statusDuration: 450
+      bulletInterval: 4
+      intervalBullets: 2
+      intervalSpread: 90
+      intervalRandomSpread: 0
+      intervalBullet: {
+                  type: BasicBulletType
+                  damage: 6
+                  lifetime: 10
+                  speed: 2
+                  trailLength: 10
+                  pierce: true
+                  pierceBuildings: true
+                    }
+    }
+}
+]
