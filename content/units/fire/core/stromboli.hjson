@@ -35,7 +35,7 @@ weapons: [
     targetBuildings: true
     targetUnits: false
     x: 0
-    repairSpeed: 5
+    repairSpeed: 0.5
     laserColor: ffd37f
     healColor: ffd37f
     bullet: {
