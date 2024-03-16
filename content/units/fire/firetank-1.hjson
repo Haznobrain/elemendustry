@@ -3,7 +3,25 @@ name: Burn
 description: Fires small fire bullets. Its hot core causes nearby non-fire units to melt but buffs any fire unit.
 faceTarget: false
 omniMovement: false
+immunities: [
+  burning
+  ]
+abilities: [
+    {
+    type: StatusfieldAbility
+    status: burning
+    reload: 60
+    range: 32
+    }
+    {
+    type: StatusFieldAbility
+    status: overclock
+    reload: 600
+    range: 24
+    }
+  ]
 
+    
 health: 450
 armor: 3
 speed: 1
