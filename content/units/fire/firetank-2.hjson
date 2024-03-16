@@ -83,7 +83,7 @@ weapons: [
     y: 0
     mirror: false
     rotate: true
-    shootEffect: {
+    smokeEffect: {
       type: ParticleEffect
       line: true
       cone: 3
@@ -96,6 +96,7 @@ weapons: [
     }
     bullet: {
       hitEffect: blastExplosion
+      despawnEffect: blastExplosion
       makeFire: true
       type: BasicBulletType
       speed: 4
@@ -121,6 +122,7 @@ weapons: [
       intervalRandomSpread: 0
       intervalBullet: {
                   hitEffect: hitFlameSmall
+                  despawnEffect: hitFlameSmall
                   type: BasicBulletType
                   damage: 6
                   lifetime: 10
