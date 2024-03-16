@@ -42,8 +42,12 @@ abilities: [
       line: true
       length: 12
       lifetime: 12
+      colorFrom: ffa245
+      colorTo: ffa245
         }
     hitEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
       type: ParticleEffect
       line: true
       length: 12
