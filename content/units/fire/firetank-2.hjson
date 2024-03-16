@@ -145,7 +145,8 @@ weapons: [
                   speed: 2
                   trailLength: 10
                   pierce: true
-                  pierceBuildings: true
+                  pierceBuilding: true
+                  makeFire: true
                     }
     }
 }
