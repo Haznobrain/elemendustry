@@ -76,6 +76,7 @@ treadRects: [
 rotateSpeed: 3
 weapons: [
   {
+    shootSound: bang
     name: firetank-2-weapon
     reload: 90
     range: 176
