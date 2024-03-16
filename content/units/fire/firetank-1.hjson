@@ -48,6 +48,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       speed: 6
+      lifetime: 16
       damage: 25
       trailEffect: ballfire
       trailEffectChance: 0.2
