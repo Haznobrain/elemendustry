@@ -12,3 +12,7 @@ hiddenOnPlanets: [
 name: Pyroclastic Quartz
 description: A stable fire related crystal that can be used in construction.
 color: fff5ee
+research: {
+    parent: core-akrotiri
+    requiresUnlock: false
+    }
