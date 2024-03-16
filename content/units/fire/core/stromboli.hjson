@@ -19,15 +19,15 @@ controller: BuilderAi
 canAttack: false
 singleTarget: true
 forceSingleTarget: true
-legLength: 4
-legBaseOffset: 2
+legLength: 6
+legBaseOffset: 4
 legGroupSize: 3
 legMaxLength: 1.2
 legMinLength: 0.8
 weapons: [
   {
     mirror: true
-    name: stromboli-weapon
+    name: stromboli
     top: false
     type: RepairBeamWeapon
     rotate: false
