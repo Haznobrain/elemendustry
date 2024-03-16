@@ -16,4 +16,3 @@ research: {
     parent: core-akrotiri
     requiresUnlock: false
     }
-alwaysUnlocked: true
