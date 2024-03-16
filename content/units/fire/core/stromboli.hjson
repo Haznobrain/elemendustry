@@ -4,6 +4,7 @@ speed: 1.13
 health: 120
 targetable: false
 hittable: false
+buildSpeed: 0.9
 isEnnemy: false
 drag: 0.25
 hitSize: 8
