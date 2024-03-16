@@ -26,7 +26,7 @@ legMaxLength: 1.2
 legMinLength: 0.8
 weapons: [
   {
-    mirror: true
+    mirror: false
     name: stromboli
     top: false
     type: RepairBeamWeapon
