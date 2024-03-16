@@ -12,3 +12,8 @@ hiddenOnPlanets: [
 name: Incandescent matter
 description: the first step towards mastering fire, slightly hot debris from an once raging fire.
 color: 97714a
+research: {
+    parent: core-akrotiri
+    requiresUnlock: false
+    }
+alwaysUnlocked: true
