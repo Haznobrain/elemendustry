@@ -1,0 +1,47 @@
+type: legs
+legs: 4
+speed: 1.13
+health: 120
+targetable: false
+hittable: false
+isEnnemy: false
+drag: 0.25
+hitSize: 8
+name: Stromboli
+description: the most basic fire type core unit. Equipped with two healing beams but can't attack ennemy targets.
+groundLayer: 75
+fogRadius: 0
+hovering: true
+shadowElevation: 0.2
+allowedInPayloads: false
+controller: BuilderAi
+canAttack: false
+singleTarget: true
+forceSingleTarget: true
+legLength: 12
+legBaseOffset: 6
+legGroupSize: 3
+legMaxLength: 1.2
+legMinLength: 0.8
+weapons: [
+  {
+    name: stromboli-weapon
+    type: RepairBeamWeapon
+    rotate: false
+    targetBuildings: true
+    targetUnits: false
+    x: 0
+    repairSpeed: 5
+    laserColor: ffd37f
+    healColor: ffd37f
+    bullet: {
+      maxRange: 64
+        }
+    range: 64
+    shootCone: 15
+    controllable: true
+    autoTarget: false
+    beamWidth: 0.7
+      }
+]
+
