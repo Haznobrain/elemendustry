@@ -1,0 +1,62 @@
+type: tank
+name: Burn
+description: Fires small fire bullets. Its hot core causes nearby non-fire units to melt but buffs any fire unit.
+health: 450
+armor: 3
+speed: 1
+hitSize: 12
+treadPullOffset: 6
+treadRects: [
+  {
+    x: 20
+    y: 1
+    height: 24
+    width: 6
+  }
+  {
+    x: -20
+    y: 1
+    height: 24
+    width: 6
+  }
+  {
+    x: 14
+    y: -4
+    height: 24
+    width: 8
+  }
+  {
+    x: -14
+    y: -4
+    height: 24
+    width: 8
+  }
+]
+rotateSpeed: 3.25
+weapons: [
+  {
+    name: firetank-1-weapon
+    reload: 60
+    range: 96
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    bullet: {
+      type: BasicBulletType
+      speed: 6
+      damage: 25
+      trailEffect: ballfire
+      trailEffectChance: 0.2
+      trailInterval: 10
+      status: burning
+      trailLength: 20
+      trailWidth: 4
+      width: 4
+      height: 8
+      trailColor: ff8b54
+      status: burning
+      statusDuration: 300
+        }
+  }
+]
