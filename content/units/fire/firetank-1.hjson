@@ -8,14 +8,14 @@ immunities: [
   ]
 abilities: [
     {
-    type: StatusfieldAbility
-    status: burning
+    type: StatusFieldAbility
+    effect: burning
     reload: 60
     range: 32
     }
     {
     type: StatusFieldAbility
-    status: overclock
+    effect: overclock
     reload: 600
     range: 24
     }
