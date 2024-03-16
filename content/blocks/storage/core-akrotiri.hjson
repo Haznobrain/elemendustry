@@ -1,0 +1,18 @@
+type: CoreBlock
+isFirstTier: true
+unitType: stromboli
+name: Core: Akrotiri
+description: first tier of fire core. good health and armor, but low storage.
+research: [
+    root: true
+    name: Fire
+    requiresUnlock: false
+    ]
+alwayUnlocked: true
+itemCapacity: 1500
+health: 3500
+armor: 5
+requirements: [
+    incandescent-matter/1200
+    pyroclastic-quartz/800
+    ]
