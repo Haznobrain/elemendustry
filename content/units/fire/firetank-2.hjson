@@ -12,7 +12,13 @@ abilities: [
     type: StatusFieldAbility
     effect: burning
     reload: 60
-    range: 32
+    range: 64
+    }
+    {
+    type: StatusFieldAbility
+    effect: burning
+    reload: 60
+    range: 48
     }
     {
     type: StatusFieldAbility
@@ -21,6 +27,7 @@ abilities: [
     range: 24
     }
     {
+    layer: 59
     type: EnergyFieldAbility
     damage: 3
     reload: 12
