@@ -83,7 +83,19 @@ weapons: [
     y: 0
     mirror: false
     rotate: true
+    bullet: {
     smokeEffect: {
+      type: ParticleEffect
+      line: true
+      cone: 3
+      length: 20
+      lengthFrom: 12
+      particles: 5
+      lifetime: 15
+      colorFrom: f5b575
+      colorTo: f5b575
+    }
+    shootEffect: {
       type: ParticleEffect
       line: true
       cone: 3
@@ -94,7 +106,6 @@ weapons: [
       colorFrom: f5b575
       colorTo: f5b575
     }
-    bullet: {
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
       makeFire: true
