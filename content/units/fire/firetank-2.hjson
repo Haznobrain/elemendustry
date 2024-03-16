@@ -16,12 +16,6 @@ abilities: [
     }
     {
     type: StatusFieldAbility
-    effect: burning
-    reload: 60
-    range: 48
-    }
-    {
-    type: StatusFieldAbility
     effect: overclock
     reload: 600
     range: 24
@@ -34,8 +28,6 @@ abilities: [
     range: 40
     status: melting
     shootSound: torch
-    hitUnits: false
-    healAmount: 0.1
     color: ffa245
     damageEffect: {
       type: ParticleEffect
@@ -88,6 +80,7 @@ weapons: [
     y: 0
     mirror: false
     rotate: true
+    rotateSpeed: 3
     bullet: {
     smokeEffect: {
       type: ParticleEffect
@@ -121,7 +114,7 @@ weapons: [
       trailEffect: ballfire
       trailEffectChance: 0.8
       trailInterval: 10
-      status: burning
+      status: melting
       trailLength: 25
       trailWidth: 2
       sprite: missile
@@ -147,6 +140,7 @@ weapons: [
                   pierce: true
                   pierceBuilding: true
                   makeFire: true
+                  status: burning
                     }
     }
 }
