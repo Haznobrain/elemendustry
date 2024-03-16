@@ -31,7 +31,8 @@ weapons: [
     top: false
     type: RepairBeamWeapon
     rotate: false
-    shootX: 4.25
+    shootX: 0
+    shootY: 6
     targetBuildings: true
     targetUnits: false
     x: 0
