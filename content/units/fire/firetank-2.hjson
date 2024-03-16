@@ -91,6 +91,8 @@ weapons: [
       lengthFrom: 12
       particles: 10
       lifetime: 15
+      colorFrom: f5b575
+      colorTo: f5b575
     }
     bullet: {
       hitEffect: blastExplosion
