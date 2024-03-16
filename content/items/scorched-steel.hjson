@@ -1,0 +1,14 @@
+type: Item
+flammability: 0
+explosivity: 0
+healthScaling: 0.04
+radioactivity: 0
+charge: 0
+cost: 0.4
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Scorched Steel
+description: A strong steel obtained from natural deposits.
+color: 4a4b50
