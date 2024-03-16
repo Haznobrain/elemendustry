@@ -64,6 +64,7 @@ weapons: [
     mirror: false
     rotate: true
     bullet: {
+      makeFire: true
       type: BasicBulletType
       speed: 6
       lifetime: 16
