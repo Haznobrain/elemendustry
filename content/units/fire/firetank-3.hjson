@@ -140,6 +140,7 @@ weapons: [
       fragBullets: 1
       lightning: 1
       lightningCone: 0
+      lightningDamage: 10
       lightningType: {
           type: LaserBulletType
           damage: 10
