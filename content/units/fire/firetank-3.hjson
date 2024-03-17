@@ -48,6 +48,8 @@ abilities: [
     status: melting
     shootSound: torch
     color: ffa245
+    healEffect: none
+    healPercent: 0
     damageEffect: {
       type: ParticleEffect
       line: true
