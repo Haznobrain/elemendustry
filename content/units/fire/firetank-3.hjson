@@ -84,6 +84,7 @@ weapons: [
   {
     shootSound: mediumCannon
     name: firetank-2-weapon
+    shootEffect: shootBig
     reload: 75
     range: 192
     x: 0
@@ -102,7 +103,6 @@ weapons: [
       colorFrom: f5b575
       colorTo: f5b575
     }
-    shootEffect: ShootBig
       hitEffect: blastExplosion
       despawnEffect: blastExplosion
       makeFire: true
