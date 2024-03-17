@@ -3,6 +3,7 @@ type: tank
 description: Fires armor piercing shaped charges. Melts nearby ennemy targets and friendly units.
 faceTarget: false
 omniMovement: false
+    range: 192
 parts: [
 {
   type: RegionPart
