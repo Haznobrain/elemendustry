@@ -83,7 +83,7 @@ rotateSpeed: 2.8
 weapons: [
   {
     shootSound: mediumCannon
-    name: firetank-2-weapon
+    name: firetank-3-weapon
     shootEffect: shootBig
     reload: 75
     range: 192
