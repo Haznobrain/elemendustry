@@ -1,0 +1,154 @@
+type: tank
+  name: Melt
+description: Fires armor piercing shaped charges. Melts nearby ennemy targets and friendly units.
+faceTarget: false
+omniMovement: false
+parts: [
+{
+  type: RegionPart
+  suffix: -glow
+  blending: additive
+  outline: false
+  color: ff0000
+    }
+  ]
+immunities: [
+  burning,
+  melting
+  ]
+abilities: [
+    {
+    type: StatusFieldAbility
+    effect: melting
+    duration: 600
+    reload: 60
+    range: 128
+    }
+    {
+    type: StatusFieldAbility
+    effect: overclock
+    reload: 540
+    range: 64
+    }
+    {
+    layer: 59
+    type: EnergyFieldAbility
+    damage: 5
+    reload: 12
+    range: 96
+    status: melting
+    shootSound: torch
+    color: ffa245
+    damageEffect: {
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+      colorFrom: ffa245
+      colorTo: ffa245
+        }
+    hitEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
+      displayHeal: false
+      sectors: 0
+        }
+  ]
+crushDamage: 1
+health: 3600
+armor: 12
+speed: 0.82
+hitSize: 29
+treadPullOffset: 12
+treadRects: [
+  {
+    x: 24
+    y: -52
+    height: 104
+    width: 17
+  }
+  {
+    x: -24
+    y: -52
+    height: 104
+    width: 17
+  }
+]
+rotateSpeed: 2.8
+weapons: [
+  {
+    shootSound: mediumCannon
+    name: firetank-2-weapon
+    reload: 75
+    range: 192
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    rotateSpeed: 1.6
+    bullet: {
+    smokeEffect: {
+      type: ParticleEffect
+      line: false
+      cone: 10
+      length: 24
+      particles: 20
+      lifetime: 15
+      colorFrom: f5b575
+      colorTo: f5b575
+    }
+    shootEffect: ShootBig
+      hitEffect: blastExplosion
+      despawnEffect: blastExplosion
+      makeFire: true
+      type: BasicBulletType
+      speed: 7
+      lifetime: 28
+      damage: 70
+      splashDamage: 40
+      splashDamageRadius: 12
+      trailEffect: ballfire
+      trailEffectChance: 1
+      trailInterval: 2
+      status: melting
+      trailLength: 25
+      trailWidth: 2
+      sprite: missile-large
+      width: 10
+      shrinkY: 0
+      shrinkX: 0.5
+      height: 10
+      trailColor: ff8b54
+      statusDuration: 450
+      fragBullets: 1
+      lightning: 1
+      lightningCone: 1
+      lightningType: {
+          type: LaserBulletType
+          damage: 10
+          length: 24
+            }
+      fragRandomSpread: 0
+      fragBullet: {
+                  hitEffect: hitFlameSmall
+                  despawnEffect: hitFlameSmall
+                  type: BasicBulletType
+                  damage: 12
+                  lifetime: 10
+                  speed: 4
+                  pierceCap: 10
+                  trailLength: 10
+                  pierce: true
+                  pierceBuilding: true
+                  makeFire: true
+                  status: burning
+                  pierceArmor: true
+                    }
+    }
+}
+]
