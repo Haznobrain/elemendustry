@@ -30,6 +30,8 @@ abilities: [
     range: 24
     }
     {
+    healEffect: none
+    healPercent: 0
     layer: 59
     type: EnergyFieldAbility
     damage: 3
