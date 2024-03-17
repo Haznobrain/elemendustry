@@ -152,6 +152,7 @@ weapons: [
           status: burning
           }
       fragRandomSpread: 0
+      fragVelocityRand: 0
       fragBullet: {
                   hitEffect: hitFlameSmall
                   despawnEffect: hitFlameSmall
