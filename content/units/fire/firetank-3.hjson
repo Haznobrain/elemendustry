@@ -147,7 +147,6 @@ weapons: [
           colors: [ff8000, ff5300, db4a04]
           width: 2
           }
-            }
       fragRandomSpread: 0
       fragBullet: {
                   hitEffect: hitFlameSmall
@@ -165,4 +164,5 @@ weapons: [
                   pierceArmor: true
                     }
     }
+}
 ]
