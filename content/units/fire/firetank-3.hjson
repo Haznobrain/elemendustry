@@ -148,6 +148,8 @@ weapons: [
           length: 24
           colors: [ff8000, ff5300, db4a04]
           width: 2
+          makeFire: true
+          status: burning
           }
       fragRandomSpread: 0
       fragBullet: {
