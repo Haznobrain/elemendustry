@@ -141,7 +141,7 @@ weapons: [
       lightning: 1
       lightningCone: 0
       lightningDamage: 10
-      lightningLength: 1
+      lightningLength: 3
       lightningType: {
           type: LaserBulletType
           damage: 10
