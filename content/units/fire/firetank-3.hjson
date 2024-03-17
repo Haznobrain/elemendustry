@@ -82,6 +82,7 @@ treadRects: [
 rotateSpeed: 2.8
 weapons: [
   {
+    shootY: 12
     shootSound: mediumCannon
     name: firetank-3-weapon
     shootEffect: shootBig
