@@ -9,6 +9,14 @@ immunities: [
   ]
 abilities: [
     {
+    applyEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
     type: StatusFieldAbility
     effect: burning
     reload: 60
