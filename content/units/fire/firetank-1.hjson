@@ -8,6 +8,15 @@ immunities: [
   ]
 abilities: [
     {
+    applyEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+      particles: 2
+        }
     type: StatusFieldAbility
     effect: burning
     activeEffect: none
