@@ -12,6 +12,7 @@ abilities: [
     type: StatusFieldAbility
     effect: burning
     reload: 60
+    activeEffect: none
     range: 64
     }
     {
