@@ -127,11 +127,14 @@ weapons: [
       statusDuration: 450
       fragBullets: 1
       lightning: 1
-      lightningCone: 1
+      lightningCone: 0
       lightningType: {
           type: LaserBulletType
           damage: 10
           length: 24
+          colors: [ff8000, ff5300, db4a04]
+          width: 2
+          }
             }
       fragRandomSpread: 0
       fragBullet: {
