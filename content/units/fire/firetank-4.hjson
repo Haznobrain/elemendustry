@@ -65,9 +65,9 @@ abilities: [
     type: EnergyFieldAbility
     damage: 10
     reload: 12
-    range: 128
-    status: melting
-    shootSound: torch
+    range: 96
+    status: elementmod-evaporating
+    shootSound: smelter
     color: ffa245
     healEffect: none
     healPercent: 0
