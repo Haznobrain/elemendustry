@@ -16,7 +16,7 @@ parts: [
 immunities: [
   burning,
   melting,
-  evaporating
+  elementmod-evaporating
   ]
 abilities: [
       {
