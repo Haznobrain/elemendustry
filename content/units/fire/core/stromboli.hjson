@@ -27,8 +27,8 @@ forceSingleTarget: true
 legLength: 4
 legBaseOffset: 4
 legGroupSize: 3
-legMaxLength: 1.2
-legMinLength: 0.8
+legMaxLength: 1.9
+legMinLength: 0.9
 weapons: [
   {
     mirror: false
