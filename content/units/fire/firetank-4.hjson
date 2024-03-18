@@ -22,7 +22,7 @@ abilities: [
       {
     display: false
     type: StatusFieldAbility
-    effect: evaporating
+    effect: elementmod-evaporating
     duration: 300
     reload: 60
     activeEffect: none
@@ -150,7 +150,7 @@ weapons: [
       type: ContinuousLaserBulletType
       lifetime: 240
       damage: 60
-      status: evaporating
+      status: elementmod-evaporating
       width: 10
       length: 168
       statusDuration: 450
