@@ -114,12 +114,13 @@ treadRects: [
 rotateSpeed: 2
 weapons: [
   {
-    shootY: 0
+    shootY: 16
     shootSound: laserbig
     loopSound: laserbeam
     name: firetank-4-weapon
     shootEffect: shootBig
     reload: 300
+    cooldownTime: 300
     range: 168
     x: 0
     y: 0
@@ -151,7 +152,7 @@ weapons: [
       lifetime: 240
       damage: 60
       status: elementmod-evaporating
-      width: 10
+      width: 6
       length: 168
       statusDuration: 450
       bulletInterval: 10
