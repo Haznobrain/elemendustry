@@ -2,6 +2,11 @@ type: legs
 legs: 4
 speed: 1.13
 health: 120
+immunities: [
+  burning,
+  melting,
+  elementmod-evaporating
+  ]
 targetable: false
 hittable: false
 buildSpeed: 0.9
@@ -19,7 +24,7 @@ controller: BuilderAi
 canAttack: false
 singleTarget: true
 forceSingleTarget: true
-legLength: 6
+legLength: 4
 legBaseOffset: 4
 legGroupSize: 3
 legMaxLength: 1.2
