@@ -117,7 +117,7 @@ weapons: [
     shootY: 0
     shootSound: laserbig
     loopSound: laserbeam
-    name: firetank-3-weapon
+    name: firetank-4-weapon
     shootEffect: shootBig
     reload: 300
     range: 168
