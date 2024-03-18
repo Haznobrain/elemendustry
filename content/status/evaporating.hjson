@@ -2,6 +2,7 @@ type: StatusEffect
 damageMultiplier: 0.8
 healthMultiplier: 0.7
 speedMultiplier: 0.75
+name: Evaporating
 damage: 0.66666
 color: f5754e
 effect: {
