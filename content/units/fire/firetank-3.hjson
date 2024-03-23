@@ -94,6 +94,7 @@ treadRects: [
 rotateSpeed: 2.8
 weapons: [
   {
+    layerOffset: 5
     shootY: 12
     shootSound: mediumCannon
     name: firetank-3-weapon
