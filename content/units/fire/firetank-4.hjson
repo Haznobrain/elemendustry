@@ -114,6 +114,7 @@ treadRects: [
 rotateSpeed: 2
 weapons: [
   {
+    layerOffset: 5
     shootY: 16
     shootSound: laserbig
     loopSound: laserbeam
