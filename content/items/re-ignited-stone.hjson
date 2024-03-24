@@ -1,0 +1,14 @@
+type: Item
+flammability: 0
+explosivity: 0.3
+healthScaling: 0.03
+radioactivity: 0
+charge: 0
+cost: 0.2
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Re-ignited stone
+description: Burning stone.
+color: f7df6f
