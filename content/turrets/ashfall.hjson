@@ -1,0 +1,29 @@
+type: ItemTurret
+range: 200
+relod: 60
+name: Ashfall
+description: Fires small artillery shells at ennemy ground targets.
+size: 1
+ammoTypes: {
+  incandescent-matter:{
+      type: ArtilleryBulletType
+      trailLength: 10
+      splashDamage: 20
+      splashDamageRadius: 8
+      status: burning
+      speed: 3
+      lifetime: 67
+      trailColor: a36b30
+      backColor: a36b30
+      frontColor: e6a843
+        }
+}
+requirements: [
+    incandescent-matter/10
+    pyroclastic-quartz/40
+    ]
+  drawer: {
+    type: DrawTurret
+    basePrefix: fire-
+      }
+  
