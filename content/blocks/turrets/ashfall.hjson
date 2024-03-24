@@ -4,7 +4,7 @@ relod: 60
 name: Ashfall
 description: Fires small artillery shells at ennemy ground targets.
 size: 1
-category: turrets
+category: turret
 ammoTypes: {
   incandescent-matter:{
       type: ArtilleryBulletType
