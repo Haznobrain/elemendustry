@@ -33,7 +33,8 @@ abilities: [
             }
         interval: 3
         display: false
-      {
+      }
+    {
     display: false
     type: StatusFieldAbility
     effect: elementmod-evaporating
