@@ -1,0 +1,240 @@
+type: tank
+  name: Dissipate
+description: Fires a massive laser with good range that leaves behind a bunch of high damage slag bombs.
+faceTarget: false
+omniMovement: false
+    range: 308
+parts: [
+{
+  type: RegionPart
+  suffix: -glow
+  blending: additive
+  outline: false
+  color: ffed00
+    }
+  ]
+immunities: [
+  burning,
+  melting,
+  elementmod-evaporating
+  ]
+abilities: [
+      {
+        type: MoveEffectAbility
+        amount: 1
+        effect: {
+            type: ParticleEffect
+            baseRotation: 135
+            length: 64
+            lifetime: 100
+            colorFrom: 5c5c5c
+            particles: 1
+            colorTo: 1d1d1d
+            }
+        interval: 3
+        display: false
+      {
+    display: false
+    type: StatusFieldAbility
+    effect: elementmod-evaporating
+    duration: 600
+    reload: 60
+    activeEffect: none
+    applyEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
+    range: 128
+    }
+    {
+    type: StatusFieldAbility
+    effect: burning
+    duration: 600
+    reload: 60
+    activeEffect: none
+    applyEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
+    range: 160
+          display: false
+    }
+    {
+    type: StatusFieldAbility
+    effect: overclock
+    reload: 180
+    duration: 2.5
+    range: 160
+    }
+    {
+    display: false
+    layer: 59
+    type: EnergyFieldAbility
+    damage: 15
+    reload: 12
+    range: 128
+    status: elementmod-evaporating
+    shootSound: smelter
+    color: ffa245
+    healEffect: none
+    healPercent: 0
+    damageEffect: {
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+      colorFrom: ffa245
+      colorTo: ffa245
+        }
+    hitEffect: {
+      colorFrom: ffa245
+      colorTo: ffa245
+      type: ParticleEffect
+      line: true
+      length: 12
+      lifetime: 12
+        }
+      displayHeal: false
+      sectors: 0
+        }
+  ]
+crushDamage: 4
+health: 21000
+armor: 30
+speed: 0.5
+hitSize: 60
+treadPullOffset: 24
+treadRects: [
+  {
+    x: 80
+    y: -116
+    height: 232
+    width: 24
+  }
+  {
+    x: -80
+    y: -116
+    height: 232
+    width: 24
+  }
+]
+rotateSpeed: 1.5
+weapons: [
+  {
+    
+    shootY: 6
+    layerOffset: 5
+    shootSound: laserblast
+    shootStatus: unmoving
+    shootStatusDuration: 60
+    shoot: {
+        firstShotDelay: 60
+          }
+    chargeSound: laserCharge
+    parts: [
+      {
+          type: RegionPart
+          suffix: -wing1
+          heatColor: ffed00
+          moveRot: -15
+          progress: {
+              type: warmup
+              other: recoil
+              op: blend
+              amount: 0.5
+                }
+          heatProgress: recoil
+      }
+     {
+          type: RegionPart
+          suffix: -wing2
+          heatColor: ffed00
+          moveRot: -25
+          progress: {
+              delay: 5
+              type: warmup
+              other: recoil
+              op: blend
+              amount: 0.3
+                }
+          heatProgress: {
+              type: recoil
+              other: warmup
+              op: blend
+              amount: 0.5
+                }
+      }
+      {
+          type: RegionPart
+          suffix: -wing1
+          heatColor: ffed00
+          moveRot: -45
+          progress: {
+              type: warmup
+              other: recoil
+              op: blend
+              amount: 0.25
+              delay: 15
+                }
+          heatProgress:{
+              type: recoil
+              other: warmup
+              op: blend
+              amount: 0.5
+                }
+      }
+      {
+          type: RegionPart
+          suffix: -gun
+          progress: recoil
+          heatProgress: recoil
+          moveY: -2
+        }
+  ]
+    name: firetank-5-weapon
+    shootWarmupSpeed: 0.02
+    minWarmup: 0.96
+    warmupMaintainTime: 120
+    shootEffect: shootBig
+    reload: 300
+    cooldownTime: 300
+    range: 168
+    x: 0
+    y: 0
+    mirror: false
+    rotate: true
+    continuous: true
+    rotateSpeed: 1.2
+    bullet: {
+        type: LaserBulletType
+        length: 308
+        width: 16
+        lifetime: 65
+        damage: 600
+        colors:[ec745855, ec7458aa, ffffffff]
+        lightningSpacing: 24
+        lightningLength: 3
+        lightningDamage: 25
+        lightningType:{
+            type: LiquidBulletType
+            liquid: slag
+            splashDamage: 25
+            splashDamagePierce: true
+            lifetime: 20
+            speed: 2
+            splashDamageRadius: 24
+            trailLength: 20
+            trailWidth: 4
+            orbSize: 8
+              }
+        lightningDelay: 1.75
+}
+]
