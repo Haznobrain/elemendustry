@@ -238,4 +238,5 @@ weapons: [
               }
         lightningDelay: 1.75
 }
+}
 ]
