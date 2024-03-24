@@ -25,15 +25,30 @@ abilities: [
         x: 10
         y: -12.5
         effect: {
-            cone: 0
+        type: MultiEffect
+          effects: [
+            {
+            cone: 10
             type: ParticleEffect
-            length: 0
+            length: 2
             lightOpacity: 1
             lifetime: 100
             colorFrom: 5c5c5c
             particles: 1
             colorTo: 1d1d1d
             }
+            {
+            cone: 10
+            type: ParticleEffect
+            length: 2
+            lightOpacity: 1
+            lifetime: 100
+            colorFrom: 2d2d2e
+            particles: 1
+            colorTo: 191919
+            }
+          ]
+    }
         interval: 3
         display: false
       }
@@ -43,15 +58,30 @@ abilities: [
         x: -10
         y: -12.5
         effect: {
-            cone: 0
+        type: MultiEffect
+          effects: [
+            {
+            cone: 10
             type: ParticleEffect
-            baseRotation: 135
-            length: 64
+            length: 2
+            lightOpacity: 1
             lifetime: 100
             colorFrom: 5c5c5c
             particles: 1
             colorTo: 1d1d1d
             }
+            {
+            cone: 10
+            type: ParticleEffect
+            length: 2
+            lightOpacity: 1
+            lifetime: 100
+            colorFrom: 2d2d2e
+            particles: 1
+            colorTo: 191919
+            }
+          ]
+    }
         interval: 3
         display: false
       }
