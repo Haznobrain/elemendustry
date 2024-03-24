@@ -123,7 +123,7 @@ abilities: [
     type: StatusFieldAbility
     effect: overclock
     reload: 180
-    duration: 2.5
+    duration: 150
     range: 160
     }
     {
@@ -270,6 +270,7 @@ weapons: [
     continuous: true
     rotateSpeed: 1.2
     bullet: {
+        sideLength: 0
         type: LaserBulletType
         length: 308
         width: 32
