@@ -26,4 +26,4 @@ requirements: [
     type: DrawTurret
     basePrefix: fire-
       }
-  
+  shootSound: bang
