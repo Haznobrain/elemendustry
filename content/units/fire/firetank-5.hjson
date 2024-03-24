@@ -22,8 +22,8 @@ abilities: [
       {
         type: MoveEffectAbility
         amount: 1
-        x: 80
-        y: -100
+        x: 10
+        y: -12.5
         effect: {
             cone: 0
             type: ParticleEffect
@@ -40,8 +40,8 @@ abilities: [
       {
         type: MoveEffectAbility
         amount: 1
-        x: -80
-        y: -100
+        x: -10
+        y: -12.5
         effect: {
             cone: 0
             type: ParticleEffect
