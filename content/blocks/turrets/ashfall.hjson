@@ -8,7 +8,7 @@ category: turret
 ammoTypes: {
   incandescent-matter:{
       type: ArtilleryBulletType
-      trailLength: 10
+      trailLength: 200
       splashDamage: 20
       splashDamageRadius: 8
       status: burning
