@@ -27,8 +27,8 @@ abilities: [
         effect: {
             cone: 0
             type: ParticleEffect
-            baseRotation: 135
-            length: 64
+            length: 0
+            lightOpacity: 1
             lifetime: 100
             colorFrom: 5c5c5c
             particles: 1
