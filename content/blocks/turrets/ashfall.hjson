@@ -1,6 +1,6 @@
 type: ItemTurret
 range: 200
-relod: 60
+reload: 60
 name: Ashfall
 description: Fires small artillery shells at ennemy ground targets.
 size: 1
