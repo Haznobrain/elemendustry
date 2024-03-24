@@ -143,7 +143,7 @@ weapons: [
     parts: [
       {
           type: RegionPart
-          suffix: -wing1
+          suffix: -gun-wing1
           heatColor: ffed00
           moveRot: -15
           progress: {
@@ -156,7 +156,7 @@ weapons: [
       }
      {
           type: RegionPart
-          suffix: -wing2
+          suffix: -gun-wing2
           heatColor: ffed00
           moveRot: -25
           progress: {
@@ -175,7 +175,7 @@ weapons: [
       }
       {
           type: RegionPart
-          suffix: -wing1
+          suffix: -gun-wing3
           heatColor: ffed00
           moveRot: -45
           progress: {
