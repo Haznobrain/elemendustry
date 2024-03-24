@@ -22,7 +22,28 @@ abilities: [
       {
         type: MoveEffectAbility
         amount: 1
+        x: 80
+        y: -100
         effect: {
+            cone: 0
+            type: ParticleEffect
+            baseRotation: 135
+            length: 64
+            lifetime: 100
+            colorFrom: 5c5c5c
+            particles: 1
+            colorTo: 1d1d1d
+            }
+        interval: 3
+        display: false
+      }
+      {
+        type: MoveEffectAbility
+        amount: 1
+        x: -80
+        y: -100
+        effect: {
+            cone: 0
             type: ParticleEffect
             baseRotation: 135
             length: 64
@@ -116,13 +137,13 @@ treadPullOffset: 24
 treadRects: [
   {
     x: 80
-    y: -116
+    y: -104
     height: 208
     width: 24
   }
   {
     x: -80
-    y: -116
+    y: -104
     height: 208
     width: 24
   }
@@ -221,7 +242,7 @@ weapons: [
     bullet: {
         type: LaserBulletType
         length: 308
-        width: 24
+        width: 32
         lifetime: 65
         damage: 600
         colors:[ec745855, ec7458aa, ffffffff]
