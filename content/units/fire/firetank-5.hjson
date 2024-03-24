@@ -145,7 +145,8 @@ weapons: [
           type: RegionPart
           suffix: -gun-wing1
           heatColor: ffed00
-          moveRot: -15
+          moveRot: 5
+          mirror: true
           progress: {
               type: warmup
               other: recoil
@@ -155,10 +156,11 @@ weapons: [
           heatProgress: recoil
       }
      {
+          mirror: true
           type: RegionPart
           suffix: -gun-wing2
           heatColor: ffed00
-          moveRot: -25
+          moveRot: 15
           progress: {
               delay: 5
               type: warmup
@@ -174,10 +176,11 @@ weapons: [
                 }
       }
       {
+          mirror: true
           type: RegionPart
           suffix: -gun-wing3
           heatColor: ffed00
-          moveRot: -45
+          moveRot: 45
           progress: {
               type: warmup
               other: recoil
