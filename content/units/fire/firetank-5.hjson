@@ -246,10 +246,12 @@ weapons: [
         lifetime: 65
         damage: 600
         colors:[ec745855, ec7458aa, ffffffff]
+        largeHit: true
         lightningSpacing: 24
         lightningLength: 3
         lightningDamage: 25
         lightningType:{
+            collids: false
             type: LiquidBulletType
             liquid: slag
             splashDamage: 25
