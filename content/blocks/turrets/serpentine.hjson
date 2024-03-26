@@ -1,0 +1,59 @@
+type: ItemTurret
+range: 120
+reload: 45
+name: Serpentine
+description: Fires a weaving piercing bullet at ennemy targets.
+size: 2
+category: turret
+ammoTypes: {
+  re-ignited-stone:{
+      type: BasicBulletType
+      trailLength: 200
+      Damage: 45
+      status: burning
+      speed: 3
+      pierce: true
+      pierceBuilding: true
+      lifetime: 80
+      trailEffect: {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            colorFrom: ffcc46
+            colorTo: ffa646
+            sizeFrom: 1
+              }
+      pierceCap: 10
+      weaveMag: 8
+      weaveScale: 2
+      puddles: 2
+      puddleLiquid: slag
+      puddleRange: 24
+      trailColor: f7df6f
+      backColor: f7d16f
+      frontColor: f7df6f
+        }
+}
+requirements: [
+    incandescent-matter/10
+    pyroclastic-quartz/40
+    ]
+  drawer: {
+    type: DrawTurret
+    basePrefix: fire-
+      parts: [
+      {
+      suffix: -mouth
+      mirror: true
+      moveRot: 15
+      moveX: -2
+      }
+      {
+      suffix: -jaw
+      mirror: true
+      moveX: -4
+      moveY: -4
+        }
+      ]
+      }
+  shootSound: big-flame-shoot
