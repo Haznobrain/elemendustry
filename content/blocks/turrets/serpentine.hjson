@@ -10,7 +10,7 @@ ammoTypes: {
   re-ignited-stone:{
       type: BasicBulletType
       trailLength: 200
-      Damage: 45
+      damage: 45
       status: burning
       speed: 3
       pierce: true
