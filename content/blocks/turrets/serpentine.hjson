@@ -25,8 +25,8 @@ ammoTypes: {
             sizeFrom: 1
               }
       pierceCap: 10
-      weaveMag: 8
-      weaveScale: 2
+      weaveMag: 16
+      weaveScale: 4
       puddles: 2
       puddleLiquid: slag
       puddleRange: 24
