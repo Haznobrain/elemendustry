@@ -16,6 +16,27 @@ ammoTypes: {
       pierce: true
       pierceBuilding: true
       lifetime: 80
+      shootEffect:{
+          type: MultiEffect
+            effects: [
+              {
+                type: WaveEffect
+                sizeTo: 12
+                lifetime: 20
+                colorFrom: ffcc46
+                colorTo: ffcc46
+              }
+             {
+            type: ParticleEffect
+            particles: 8
+            length: 12
+            colorFrom: ffcc46
+            colorTo: ffa646
+            sizeFrom: 3
+            lifetime: 30
+              }
+            ]
+        }
       trailEffect: {
             type: ParticleEffect
             particles: 1
@@ -23,7 +44,10 @@ ammoTypes: {
             colorFrom: ffcc46
             colorTo: ffa646
             sizeFrom: 1
+            lifetime: 80
               }
+      trailInterval: 2
+      trailChance: 0.9
       pierceCap: 10
       weaveMag: 16
       weaveScale: 4
@@ -46,7 +70,7 @@ requirements: [
       {
       suffix: -mouth
       mirror: true
-      moveRot: -15
+      moveRot: -10
       moveX: 2
       progress: warmup
       }
@@ -54,7 +78,7 @@ requirements: [
       progress: warmup
       suffix: -jaw
       mirror: true
-      moveX: 4
+      moveX: 3
       moveY: -4
         }
       {
