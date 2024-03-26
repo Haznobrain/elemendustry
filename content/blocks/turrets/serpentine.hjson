@@ -60,8 +60,8 @@ ammoTypes: {
         }
 }
 requirements: [
-    incandescent-matter/10
-    pyroclastic-quartz/40
+    re-ignited-matter/60
+    scorched-steel/40
     ]
   drawer: {
     type: DrawTurret
