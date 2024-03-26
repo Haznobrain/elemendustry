@@ -46,15 +46,15 @@ requirements: [
       {
       suffix: -mouth
       mirror: true
-      moveRot: 15
-      moveX: -2
+      moveRot: -15
+      moveX: 2
       progress: warmup
       }
       {
       progress: warmup
       suffix: -jaw
       mirror: true
-      moveX: -4
+      moveX: 4
       moveY: -4
         }
       {
