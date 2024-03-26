@@ -58,6 +58,58 @@ ammoTypes: {
       backColor: f7d16f
       frontColor: f7df6f
         }
+  scorched-steel:{
+      type: BasicBulletType
+      trailLength: 200
+      damage: 50
+      homingPower: 0.1
+      status: burning
+      speed: 3
+      pierce: true
+      pierceBuilding: true
+      lifetime: 80
+      shootEffect:{
+          type: MultiEffect
+            effects: [
+              {
+                type: WaveEffect
+                sizeTo: 12
+                lifetime: 20
+                colorFrom: ffcc46
+                colorTo: ffcc46
+              }
+             {
+            type: ParticleEffect
+            particles: 8
+            length: 12
+            colorFrom: ffcc46
+            colorTo: ffa646
+            sizeFrom: 3
+            lifetime: 30
+              }
+            ]
+        }
+      trailEffect: {
+            type: ParticleEffect
+            particles: 1
+            length: 0
+            colorFrom: ffcc46
+            colorTo: 393b41
+            sizeFrom: 1
+            lifetime: 80
+              }
+      trailInterval: 2
+      trailChance: 0.9
+      pierceCap: 10
+      weaveMag: 16
+      weaveScale: 4
+      puddles: 2
+      puddleLiquid: slag
+      puddleRange: 24
+      trailColor: f7df6f
+      backColor: 393b41
+      frontColor: f7df6f
+        }
 }
 requirements: [
     re-ignited-matter/60
