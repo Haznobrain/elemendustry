@@ -106,7 +106,7 @@ ammoTypes: {
       puddles: 2
       puddleLiquid: slag
       puddleRange: 24
-      trailColor: f7df6f
+      trailColor: 393b41
       backColor: 393b41
       frontColor: f7df6f
         }
