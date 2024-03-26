@@ -112,7 +112,7 @@ ammoTypes: {
         }
 }
 requirements: [
-    re-ignited-matter/60
+    re-ignited-stone/60
     scorched-steel/40
     ]
   drawer: {
