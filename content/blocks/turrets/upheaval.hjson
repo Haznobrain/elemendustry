@@ -62,7 +62,7 @@ shoot: {
         }
 ammoTypes: {
     re-ignited-stone: {
-        type: BulletType
+        type: BasicBulletType
         pierce: true
         damage: 40
         speed: 5
@@ -98,7 +98,7 @@ ammoTypes: {
         despawnHit: false
           }
     cinnabar: {
-        type: BulletType
+        type: BasicBulletType
         pierce: true
         damage: 55
         speed: 5
