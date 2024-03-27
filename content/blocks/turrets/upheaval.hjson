@@ -1,4 +1,5 @@
 type: ItemTurret
+shootSound: medium-flame-shoot         
 size: 3
 drawer: {
     type: DrawTurret
@@ -71,6 +72,15 @@ ammoTypes: {
         trailLength: 140
         lifetime: 37
         trailEffect: disperseTrail
+        shootEffect: shootBig
+        smokeEffect: {
+            type: particleEffect
+            cone: 5
+            colorFrom: f7df6f
+            colorTo: f7a76f
+            particles: 8
+            sizeFrom: 5
+            }
         backColor: f7df6f
         frontColor: ffffff
         hitColor: f7df6f
@@ -82,6 +92,15 @@ ammoTypes: {
         damage: 55
         speed: 5
         width: 6
+        shootEffect: shootBig
+        smokeEffect: {
+            type: particleEffect
+            cone: 5
+            colorFrom: e64c24
+            colorTo: a32314
+            particles: 8
+            sizeFrom: 5
+            }
         height: 8
         trailColor: e64c24
         trailLength: 140
