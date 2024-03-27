@@ -60,6 +60,7 @@ shoot: {
       0, 1, 0,
       -7, -4, 0,
         ]
+        }
 ammoTypes: {
     re-ignited-stone: {
         type: BulletType
