@@ -1,1 +1,14 @@
-
+type: Item
+flammability: 0
+explosivity: 0
+healthScaling: 0
+radioactivity: 0
+charge: 0
+cost: 0.5
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Elemental Plate
+description: A stable material that can be used to manipulate elements more easily.
+color: dadade
