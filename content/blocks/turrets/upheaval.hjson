@@ -6,7 +6,7 @@ drawer: {
     basePrefix: fire-
     parts: [
       {
-      suffix: -top
+      suffix: -middle
       progress: recoil
       heatprogress: recoil
       moveY: -6
@@ -37,7 +37,7 @@ drawer: {
             }
       }
       {
-      suffix: -top
+      suffix: -bottom
       moveDelay: 10
       progress: recoil
       heatprogress: recoil
