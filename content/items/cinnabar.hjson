@@ -1,0 +1,14 @@
+type: Item
+flammability: 1.5
+explosivity: 0.3
+healthScaling: 0.3
+radioactivity: 0
+charge: 0
+cost: 0.6
+hiddenOnPlanets: [
+    serpulo,
+    erekir
+    ]
+name: Cinnabar
+description: Can be used to make sulfur and arsenic. Or as a dangerous building material.
+color: e64c24
