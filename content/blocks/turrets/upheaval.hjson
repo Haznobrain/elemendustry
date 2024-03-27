@@ -1,0 +1,102 @@
+type: ItemTurret
+size: 3
+drawer: {
+    type: DrawTurret
+    basePrefix: fire-
+    parts: [
+      {
+      suffix: -top
+      progress: recoil
+      heatprogress: recoil
+      moveY: -6
+      }
+      {
+      suffix: -wing
+      mirror: true
+      progress:
+      progress: recoil
+      moveY: -6
+      moveDelay: 10
+      heatProgress:{
+          type: recoil
+          other: warmup
+          amount: 0.5
+          op: blend
+            }
+        }
+      {
+      suffix: -side
+      mirror: true
+      progress: recoil
+      moveY: -8
+      heatProgress:{
+          type: recoil
+          other: warmup
+          amount: 0.5
+          op: blend
+            }
+      }
+      {
+      suffix: -top
+      moveDelay: 10
+      progress: recoil
+      heatprogress: recoil
+      moveY: -2
+      }
+      ]
+}
+reload: 40
+recoil: 0
+range: 184
+name: Upheaval
+description: Fires 3 piercing bullets out of 3 barrels.
+shootY: 0
+shoot: {
+    type: ShootBarrel
+    shots: 3
+    barrels: {
+      7, -4, 0,
+      0, 1, 0,
+      -7, -4, 0,
+        }
+ammoTypes: {
+    re-ignited-stone: {
+        type: BulletType
+        pierce: true
+        damage: 40
+        speed: 5
+        width: 6
+        height: 6
+        trailColor: f7df6f
+        trailLength: 140
+        lifetime: 37
+        trailEffect: disperseTrail
+        backColor: f7df6f
+        frontColor: ffffff
+        hitColor: f7df6f
+        despawnHit: false
+          }
+    cinnabar: {
+        type: BulletType
+        pierce: true
+        damage: 55
+        speed: 5
+        width: 6
+        height: 8
+        trailColor: e64c24
+        trailLength: 140
+        lifetime: 37
+        trailEffect: disperseTrail
+        backColor: e64c24
+        frontColor: ffffff
+        hitColor: e64c24
+        splashDamage: 5
+        splashDamageRadius: 10
+          }
+}
+requirements: [
+    scorched-steel/200
+    cinnabar/100
+    elemental-plate/100
+      ]
+  category: turret
