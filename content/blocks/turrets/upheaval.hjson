@@ -71,7 +71,17 @@ ammoTypes: {
         trailColor: f7df6f
         trailLength: 140
         lifetime: 37
-        trailEffect: disperseTrail
+        trailInterval: 2
+        pierceCap: 15
+        pierceBuilding: true
+        trailEffect: {
+            particles: 2
+            length: 2
+            colorFrom: f7df6f
+            colorTo: f7a76f
+            sizeFrom: 2
+            lifetime: 37
+            }
         shootEffect: shootBig
         smokeEffect: {
             type: particleEffect
@@ -80,6 +90,7 @@ ammoTypes: {
             colorTo: f7a76f
             particles: 8
             sizeFrom: 5
+            lifetime: 12
             }
         backColor: f7df6f
         frontColor: ffffff
@@ -93,6 +104,17 @@ ammoTypes: {
         speed: 5
         width: 6
         shootEffect: shootBig
+        trailInterval: 2
+        pierceCap: 15
+        pierceBuilding: true
+        trailEffect: {
+            particles: 2
+            length: 2
+            colorFrom: e64c24
+            colorTo: a32314
+            sizeFrom: 2
+            lifetime: 37
+            }
         smokeEffect: {
             type: particleEffect
             cone: 5
@@ -100,12 +122,12 @@ ammoTypes: {
             colorTo: a32314
             particles: 8
             sizeFrom: 5
+            lifetime: 12
             }
         height: 8
         trailColor: e64c24
         trailLength: 140
         lifetime: 37
-        trailEffect: disperseTrail
         backColor: e64c24
         frontColor: ffffff
         hitColor: e64c24
