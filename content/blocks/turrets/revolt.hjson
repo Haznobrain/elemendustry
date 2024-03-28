@@ -5,6 +5,21 @@ range: 256
 reload: 60
 shootSound: double-flame-medium
 size: 4
+shootEffect: {
+    type: MultiEffect
+        effects:[
+          shootBig,
+            {
+              type: ParticleEffect
+              particles: 12
+              SizeFrom: 6
+              colorFrom: ffc735
+              colorTo: ff3500
+              length: 24
+              cone: 10
+          }
+        ]
+      }
 drawer: {
   type: DrawTurret
   basePrefix: fire-
@@ -82,7 +97,7 @@ ammoTypes: {
                 {
                   type: ParticleEffect
                   lifetime: 60
-                  interp: Pow5Out
+                  interp: pow5Out
                   particles: 12
                   length: 68
                   strokeFrom: 4
@@ -97,8 +112,8 @@ ammoTypes: {
                   sizeFrom: 8
                   particles: 8
                   length: 70
-                  interp: Pow3In
-                  sizeInterp: Pow5Out
+                  interp: pow3In
+                  sizeInterp: pow5Out
                   ColorFrom: ffc735
                   colorTo: ff3500
                   lightOpacity: 0.3
@@ -109,8 +124,8 @@ ammoTypes: {
                   sizeFrom: 5
                   particles: 12
                   length: 76
-                  interp: Pow3In
-                  sizeInterp: Pow5Out
+                  interp: pow3In
+                  sizeInterp: pow5Out
                   ColorFrom: debb5f
                   colorTo: bc3c1a
                   lightOpacity: 0.8
@@ -121,8 +136,8 @@ ammoTypes: {
                   sizeFrom: 5
                   particles: 6
                   length: 80
-                  interp: Pow3In
-                  sizeInterp: Pow5Out
+                  interp: pow3In
+                  sizeInterp: pow5Out
                   ColorFrom: 968682
                   colorTo: 434343
                   lightOpacity: 1
