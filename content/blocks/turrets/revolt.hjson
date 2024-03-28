@@ -157,7 +157,7 @@ ammoTypes: {
 requirements: [
       scorched-steel/750
       elemental-plate/600
-      molten-elemental-plate/500
+      melting-elemental-plate/500
       re-ignited-stone/800
       ]
   category: turret
