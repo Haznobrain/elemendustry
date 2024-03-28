@@ -1,0 +1,163 @@
+type: ItemTurret
+name: Revolt
+description: Fires a massive explosive charged helix.
+range: 256
+reload: 60
+shootSound: double-flame-medium
+size: 4
+drawer: {
+  type: DrawTurret
+  basePrefix: fire-
+    parts: [
+    {
+      suffix: -hitter
+      progress: recoil
+      heatProgress: {
+            type: recoil
+            other: warmup
+            amount: 0.25
+            op: blend
+              }
+      moveY: 6
+    }
+    {
+      suffix: -wing
+      progress: recoil
+      mirror: true
+      heatProgress: {
+            type: recoil
+            other: warmup
+            amount: 0.25
+            op: blend
+              }
+      moveY: -5
+    }
+    {
+      suffix: -side
+      mirror: true
+      progress: {
+            type: recoil
+            other: warmup
+            amount: 0.5
+            op: blend
+              }
+      heatProgress: {
+            type: recoil
+            other: warmup
+            amount: 0.25
+            op: blend
+              }
+      moveY: -7
+      moveX: 2
+    }
+    ]
+        }
+shoot: {
+    type: ShootHelix
+    scl: 4
+    mag: 2
+    shots: 2
+      }
+consumes: {
+  power: 6
+    }
+ammoTypes: {
+    melting-elemental-plate: {
+        type: BasicBulletType
+        damage: 65
+        splashDamage: 55
+        splashDamagePierce: true
+        splashDamageRadius: 64
+        hitEffect: {
+            type: MultiEffect
+              effects: [
+                {
+                  type: WaveEffect
+                  lifetime: 12
+                  strokeFrom: 4
+                  ColorFrom: ffc735
+                  colorTo: ff3500
+                  sizeTo: 64
+                }
+                {
+                  type: ParticleEffect
+                  lifetime: 60
+                  interp: Pow5Out
+                  particles: 12
+                  length: 68
+                  strokeFrom: 4
+                  ColorFrom: ffc735
+                  colorTo: ff3500
+                  lengthFrom: 12
+                  lengthTo: 4
+                }
+                {
+                  type: ParticleEffect
+                  lifetime: 80
+                  sizeFrom: 8
+                  particles: 8
+                  length: 70
+                  interp: Pow3In
+                  sizeInterp: Pow5Out
+                  ColorFrom: ffc735
+                  colorTo: ff3500
+                  lightOpacity: 0.3
+                }
+                  {
+                  type: ParticleEffect
+                  lifetime: 90
+                  sizeFrom: 5
+                  particles: 12
+                  length: 76
+                  interp: Pow3In
+                  sizeInterp: Pow5Out
+                  ColorFrom: debb5f
+                  colorTo: bc3c1a
+                  lightOpacity: 0.8
+                }
+                  {
+                  type: ParticleEffect
+                  lifetime: 90
+                  sizeFrom: 5
+                  particles: 6
+                  length: 80
+                  interp: Pow3In
+                  sizeInterp: Pow5Out
+                  ColorFrom: 968682
+                  colorTo: 434343
+                  lightOpacity: 1
+                }
+              ]
+        }
+        despawnEffect: none
+        lightning: 5
+        lightningLenth: 15
+        lightningDamage: 15
+        sprite: large-orb
+        frontColor: ffc735
+        backColor: ffc735
+        trailLength: 180
+        trailColor: ffc735
+        trailInterval: 12
+        speed: 2
+        lifetime: 128
+        trailEffect: {
+            type: ParticleEffect
+            sizeFrom: 8
+            particles: 1
+            length: 0
+            lightOpacity: 1
+            lifetime: 64
+              }
+        hitSound: big-flame-shoot
+        height: 10
+        width: 10
+          }
+}
+requirements: [
+      scorched-steel/750
+      elemental-plate/600
+      molten-elemental-plate/500
+      re-ignited-stone/800
+      ]
+  category: turret
