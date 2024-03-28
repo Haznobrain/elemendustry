@@ -48,7 +48,7 @@ drawer: {
       moveY: -5
     }
     {
-      suffix: -side
+      suffix: -arm
       mirror: true
       progress: {
             type: recoil
