@@ -107,7 +107,7 @@ ammoTypes: {
                   lengthFrom: 12
                   lengthTo: 4
                   line: true
-                  lightOpacity: 0.3
+                  lightOpacity: 0.9
                   colorFrom: ffc735
                   colorTo: ff3500
                   lightColor: ffc735
@@ -122,7 +122,7 @@ ammoTypes: {
                   sizeInterp: pow5In
                   colorFrom: ffc735
                   colorTo: ff3500
-                  lightOpacity: 0.5
+                  lightOpacity: 0.6
                   lightColor: ffc735
                 }
                   {
@@ -136,7 +136,7 @@ ammoTypes: {
                   sizeInterp: pow5In
                   colorFrom: debb5f
                   colorTo: bc3c1a
-                  lightOpacity: 0.7
+                  lightOpacity: 0.3
                 }
                   {
                   type: ParticleEffect
@@ -148,7 +148,7 @@ ammoTypes: {
                   sizeInterp: pow5In
                   colorFrom: 968682
                   colorTo: 434343
-                  lightOpacity: 1
+                  lightOpacity: 0
                 }
               ]
         }
