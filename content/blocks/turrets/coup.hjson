@@ -246,6 +246,7 @@ ammoTypes: {
         fragSpread: 45
         fragVelocityMin: 1
         fragVelocityMax: 1
+        fragRandomSpread: 0
         fragBullet: {
             type: PointBulletType
             speed: 64
@@ -354,6 +355,8 @@ ammoTypes: {
         shrinkY: 0
         hittable: false
         lifetime: 64
+        trailLength: 80
+        trailColor: ffe465
           }
         }
     }
