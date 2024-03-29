@@ -108,6 +108,9 @@ ammoTypes: {
                   lengthTo: 4
                   line: true
                   lightOpacity: 0.3
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  lightColor: ffc735
                 }
                 {
                   type: ParticleEffect
@@ -120,6 +123,7 @@ ammoTypes: {
                   colorFrom: ffc735
                   colorTo: ff3500
                   lightOpacity: 0.5
+                  lightColor: ffc735
                 }
                   {
                   type: ParticleEffect
@@ -127,6 +131,7 @@ ammoTypes: {
                   sizeFrom: 5
                   particles: 12
                   length: 76
+                  lightColor: ffc735
                   interp: circleOut
                   sizeInterp: pow5In
                   colorFrom: debb5f
