@@ -83,6 +83,7 @@ ammoTypes: {
         splashDamage: 55
         splashDamagePierce: true
         splashDamageRadius: 64
+        shrinkY: 0
         hitEffect: {
             type: MultiEffect
               effects: [
@@ -105,6 +106,7 @@ ammoTypes: {
                   colorTo: ff3500
                   lengthFrom: 12
                   lengthTo: 4
+                  line: true
                 }
                 {
                   type: ParticleEffect
@@ -116,7 +118,7 @@ ammoTypes: {
                   sizeInterp: pow5Out
                   ColorFrom: ffc735
                   colorTo: ff3500
-                  lightOpacity: 0.3
+                  lightOpacity: 0.9
                 }
                   {
                   type: ParticleEffect
