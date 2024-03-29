@@ -170,6 +170,8 @@ ammoTypes: {
             particles: 1
             length: 0
             lightOpacity: 1
+                  colorFrom: ffc735
+                  colorTo: ff3500
             lifetime: 64
               }
         hitSound: big-flame-shoot
