@@ -34,7 +34,7 @@ drawer: {
           amount: 0.5
           op: blend
             }
-        moveX: 10
+        moveX: -10
         moveY: -8
         recoilIndex: 0
       }
@@ -59,7 +59,6 @@ drawer: {
       }
       {
         suffix:-bottom
-        mirror: true
         heatColor: ffe465
         progress: recoil
         heatProgress: {
