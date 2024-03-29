@@ -356,6 +356,7 @@ ammoTypes: {
           }
         }
     }
+}
   requirements: [
         fire-crystal/600
         scorched-steel/1000
@@ -363,4 +364,3 @@ ammoTypes: {
         melting-elemental-plate/800
         ]
   category: turret
-}
