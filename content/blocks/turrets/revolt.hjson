@@ -91,7 +91,7 @@ ammoTypes: {
                   type: WaveEffect
                   lifetime: 12
                   strokeFrom: 4
-                  ColorFrom: ffc735
+                  colorFrom: ffc735
                   colorTo: ff3500
                   sizeTo: 64
                 }
@@ -102,7 +102,7 @@ ammoTypes: {
                   particles: 12
                   length: 68
                   strokeFrom: 4
-                  ColorFrom: ffc735
+                  colorFrom: ffc735
                   colorTo: ff3500
                   lengthFrom: 12
                   lengthTo: 4
@@ -116,9 +116,9 @@ ammoTypes: {
                   length: 70
                   interp: pow3In
                   sizeInterp: pow5Out
-                  ColorFrom: ffc735
+                  colorFrom: ffc735
                   colorTo: ff3500
-                  lightOpacity: 0.9
+                  lightOpacity: 0.3
                 }
                   {
                   type: ParticleEffect
@@ -128,7 +128,7 @@ ammoTypes: {
                   length: 76
                   interp: pow3In
                   sizeInterp: pow5Out
-                  ColorFrom: debb5f
+                  colorFrom: debb5f
                   colorTo: bc3c1a
                   lightOpacity: 0.8
                 }
@@ -140,7 +140,7 @@ ammoTypes: {
                   length: 80
                   interp: pow3In
                   sizeInterp: pow5Out
-                  ColorFrom: 968682
+                  colorFrom: 968682
                   colorTo: 434343
                   lightOpacity: 1
                 }
