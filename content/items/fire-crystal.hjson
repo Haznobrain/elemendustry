@@ -9,6 +9,6 @@ hiddenOnPlanets: [
     serpulo,
     erekir
     ]
-name: [#ff9e00]fire crystal
-description: Crystallized version of the [#ff9e00]fire [#ffffff] element
+name: fire crystal
+description: Crystallized version of the fire element
 color: ff9e00
