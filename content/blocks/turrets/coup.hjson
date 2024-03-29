@@ -58,7 +58,7 @@ drawer: {
         moveY: -8
       }
       {
-        suffix: -bottom
+        suffix:-bottom
         mirror: true
         heatColor: ffe465
         progress: recoil
