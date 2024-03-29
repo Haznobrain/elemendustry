@@ -102,8 +102,8 @@ ammoTypes: {
                   particles: 12
                   length: 68
                   strokeFrom: 4
-                  colorFrom: ffc735
-                  colorTo: ff3500
+                  interp: circleOut
+                  sizeInterp: pow5In
                   lengthFrom: 12
                   lengthTo: 4
                   line: true
@@ -114,11 +114,10 @@ ammoTypes: {
                   sizeFrom: 8
                   particles: 8
                   length: 70
-                  interp: pow3In
-                  sizeInterp: pow5Out
+                  interp: circleOut
+                  sizeInterp: pow5In
                   colorFrom: ffc735
                   colorTo: ff3500
-                  lightOpacity: 0.3
                 }
                   {
                   type: ParticleEffect
@@ -126,11 +125,10 @@ ammoTypes: {
                   sizeFrom: 5
                   particles: 12
                   length: 76
-                  interp: pow3In
-                  sizeInterp: pow5Out
+                  interp: circleOut
+                  sizeInterp: pow5In
                   colorFrom: debb5f
                   colorTo: bc3c1a
-                  lightOpacity: 0.8
                 }
                   {
                   type: ParticleEffect
@@ -138,11 +136,10 @@ ammoTypes: {
                   sizeFrom: 5
                   particles: 6
                   length: 80
-                  interp: pow3In
-                  sizeInterp: pow5Out
+                  interp: circleOut
+                  sizeInterp: pow5In
                   colorFrom: 968682
                   colorTo: 434343
-                  lightOpacity: 1
                 }
               ]
         }
