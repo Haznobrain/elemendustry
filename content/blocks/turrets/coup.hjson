@@ -166,7 +166,7 @@ squareSprite: false
 ammoTypes: {
     fire-crystal: {
         type: ArtilleryBulletType
-        splashDamage: 250
+        splashDamage: 650
         splashDamagePierce: true
         speed: 4
         lifetime: 70
@@ -349,7 +349,7 @@ ammoTypes: {
                 }
               ]
         }
-        splashDamage: 80
+        splashDamage: 100
         splashDamageRadius: 64
         splashDamagePierce: true
         shrinkY: 0
