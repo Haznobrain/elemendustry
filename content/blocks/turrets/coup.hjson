@@ -1,0 +1,366 @@
+type: ItemTurret
+minWarmup: 0.96
+shootWarmupSpeed: 0.03
+size: 5
+reload: 90
+shoot: {
+    type: ShootBarrel
+      barrels: [
+          -12, 0, 0
+          12, 0, 0
+          ]
+      }
+recoils: 2
+range: 280
+shootSound: pulse-flame
+name: Coup
+description: Topples regimes, and accessorily, the health of big ennemy units, using imploding fire bombs.
+drawer: {
+    type: DrawTurret
+    basePrefix: fire-
+        parts: [
+      {
+        suffix: -barrel1
+        heatColor: ffe465
+        progress: {
+          type: recoil
+          other: warmup
+          amount: 0.5
+          op: blend
+            }
+        heatProgress: {
+          type: recoil
+          other: warmup
+          amount: 0.5
+          op: blend
+            }
+        moveX: 10
+        moveY: -8
+        recoilIndex: 0
+      }
+      {
+        suffix: -barrel2
+        heatColor: ffe465
+        recoilIndex: 1
+        progress: {
+          type: recoil
+          other: warmup
+          amount: 0.5
+          op: blend
+            }
+        heatProgress: {
+          type: recoil
+          other: warmup
+          amount: 0.5
+          op: blend
+            }
+        moveX: 10
+        moveY: -8
+      }
+      {
+        suffix: -bottom
+        mirror: true
+        heatColor: ffe465
+        progress: recoil
+        heatProgress: {
+            type: recoil
+            other: warmup
+            amount: 0.5
+            op: blend
+              }
+        moveY: -2
+        moveDelay: 20
+      }
+      {
+        suffix: -side
+        mirror: true
+        heatColor: ffe465
+        progress: warmup
+        heatProgress: {
+            type: recoil
+            other: warmup
+            amount: 0.5
+            op: blend
+              }
+        moveX: 5
+      }
+      {
+        type: ShapePart
+        circle: true
+        hollow: true
+        radius: 10
+        x: 0
+        y: -26
+        strokeTo: 2
+        stroke: 0
+        color: ffe465
+      }
+      {
+        type: ShapePart
+        sides: 4
+        hollow: true
+        radius: 8
+        x: 0
+        y: -26
+        strokeTo: 2
+        stroke: 0
+        color: ffe465
+      }
+      {
+        x: 0
+        y: -26
+        type: FlarePart
+        color1: ffffff
+        color2: ffe465
+        progress: {
+            type: recoil
+            other: warmup
+            op: blend
+            amount: 0.5
+              }
+        stroke: 3
+        radius: 0
+        radiusTo: 5
+      }
+      {
+        x: 0
+        y: -26
+        type: HaloPart
+        shapeRotation: 180
+        tri: true
+        shapes: 4
+        triLengthTo: 2
+        triLength: 0
+        haloRadius: 13
+        stroke: 0
+        strokeTo: 2
+        haloRotateSpeed: 2
+      }
+      {
+        x: 0
+        y: -26
+        type: HaloPart
+        progress: {
+              type: recoil
+              other: warmup
+              amount: 0.5
+              op: blend
+                }
+        tri: true
+        shapes: 4
+        triLengthTo: 6
+        stroke: 0
+        stroke: 2
+        triLength: 0
+        haloRadius: 13
+        haloRotateSpeed: 2
+      }
+      ]
+}
+cooldownTime: 90
+consumes: {
+      power: 20
+        }
+squareSprite: false
+ammoTypes: {
+    fire-crystal: {
+        type: ArtilleryBulletType
+        splashDamage: 250
+        splashDamagePierce: true
+        speed: 4
+        lifetime: 70
+        frontColor: 
+        hitEffect: {
+            type: MultiEffect
+              effects: [
+                {
+                  type: WaveEffect
+                  lifetime: 12
+                  strokeFrom: 4
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  sizeTo: 64
+                }
+                {
+                  type: ParticleEffect
+                  lifetime: 60
+                  interp: pow5Out
+                  particles: 12
+                  length: 68
+                  strokeFrom: 4
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  lengthFrom: 12
+                  lengthTo: 4
+                  line: true
+                  lightOpacity: 0
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  lightColor: ffc735
+                }
+                {
+                  type: ParticleEffect
+                  lifetime: 80
+                  sizeFrom: 8
+                  particles: 8
+                  length: 70
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  lightOpacity: 0.6
+                  lightColor: ffc735
+                }
+                  {
+                  type: ParticleEffect
+                  lifetime: 90
+                  sizeFrom: 5
+                  particles: 12
+                  length: 76
+                  lightColor: ffc735
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  colorFrom: debb5f
+                  colorTo: bc3c1a
+                  lightOpacity: 0.9
+                }
+                  {
+                  type: ParticleEffect
+                  lifetime: 90
+                  sizeFrom: 5
+                  particles: 6
+                  length: 80
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  colorFrom: 968682
+                  colorTo: 434343
+                  lightOpacity: 1
+                }
+              ]
+        }
+        despawnEffect: none
+        splashDamageRadius: 64
+        backColor: ffe465
+        fragBullets: 8
+        fragSpread: 45
+        fragVelocityMin: 1
+        fragVelocityMax: 1
+        fragBullet: {
+            type: PointBulletType
+            speed: 64
+            lifetime: 1
+            damage: 0
+            shootEffect: none
+            hitEffect: {
+              type: WaveEffect
+              sides: 4
+              lifetime: 12
+              colorFrom: ffe465
+              strokeFrom: 0
+              strokeTo: 2
+              sizeTo: 0
+              sizeFrom: 10
+                }
+            smokeEffect: none
+            trailEffect: none
+            pierce: true
+            fragSpread: 0
+            fragRandomSpread: 0
+            fragAngle: 180
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragBullets: 1
+            fragBullet: {
+                type: BasicBulletType
+                speed: 1
+                sprite: missile-large
+                frontColor: ffe465
+                shootEffect: none
+                smokeEffect: none
+                despawnEffect: none
+                damage: 0
+                hitEffect: {
+            type: MultiEffect
+              effects: [
+                {
+                  type: WaveEffect
+                  lifetime: 12
+                  strokeFrom: 4
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  sizeTo: 64
+                }
+                {
+                  type: ParticleEffect
+                  lifetime: 60
+                  interp: pow5Out
+                  particles: 2
+                  length: 68
+                  strokeFrom: 4
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  lengthFrom: 12
+                  lengthTo: 4
+                  line: true
+                  lightOpacity: 0
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  lightColor: ffc735
+                }
+                {
+                  type: ParticleEffect
+                  lifetime: 80
+                  sizeFrom: 8
+                  particles: 1
+                  length: 70
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  colorFrom: ffc735
+                  colorTo: ff3500
+                  lightOpacity: 0.6
+                  lightColor: ffc735
+                }
+                  {
+                  type: ParticleEffect
+                  lifetime: 90
+                  sizeFrom: 5
+                  particles: 2
+                  length: 76
+                  lightColor: ffc735
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  colorFrom: debb5f
+                  colorTo: bc3c1a
+                  lightOpacity: 0.9
+                }
+                  {
+                  type: ParticleEffect
+                  lifetime: 90
+                  sizeFrom: 5
+                  particles: 1
+                  length: 80
+                  interp: circleOut
+                  sizeInterp: pow5In
+                  colorFrom: 968682
+                  colorTo: 434343
+                  lightOpacity: 1
+                }
+              ]
+        }
+        splashDamage: 80
+        splashDamageRadius: 64
+        splashDamagePierce: true
+        shrinkY: 0
+        hittable: false
+        lifetime: 64
+          }
+        }
+    }
+  requirements: [
+        fire-crystal/600
+        scorched-steel/1000
+        incandescent-matter/1500
+        melting-elemental-plate/800
+        ]
+  category: turret
+}
