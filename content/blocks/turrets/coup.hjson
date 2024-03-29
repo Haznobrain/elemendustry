@@ -135,6 +135,7 @@ drawer: {
         stroke: 0
         strokeTo: 2
         haloRotateSpeed: 2
+        color: ffe465
       }
       {
         x: 0
@@ -154,6 +155,7 @@ drawer: {
         triLength: 0
         haloRadius: 13
         haloRotateSpeed: 2
+        color: ffe465
       }
       ]
 }
@@ -169,7 +171,7 @@ ammoTypes: {
         splashDamagePierce: true
         speed: 4
         lifetime: 70
-        frontColor: 
+        frontColor: ffe465
         hitEffect: {
             type: MultiEffect
               effects: [
