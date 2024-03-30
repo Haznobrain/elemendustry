@@ -171,6 +171,8 @@ ammoTypes: {
         speed: 4
         lifetime: 70
         frontColor: ffe465
+        height: 10
+        width: 10
         hitEffect: {
             type: MultiEffect
               effects: [
