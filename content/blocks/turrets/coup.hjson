@@ -6,8 +6,8 @@ reload: 90
 shoot: {
     type: ShootBarrel
       barrels: [
-          -12, 0, 0
-          12, 0, 0
+          -17, 0, 0
+          17, 0, 0
           ]
       }
 recoils: 2
