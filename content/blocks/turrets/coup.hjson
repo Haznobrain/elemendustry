@@ -25,12 +25,8 @@ drawer: {
         progress: recoil
         moves: [
             {
-                type: PartMove
-                progress: {
-                    type: warmup
-                    op: delay
-                    amount: 1
-                        } 
+            type: PartMove
+            progress: warmup
             x: -5
             }
             ]
@@ -40,7 +36,6 @@ drawer: {
           amount: 0.5
           op: blend
             }
-        moveX: -10
         moveY: -8
         recoilIndex: 0
       }
@@ -52,11 +47,7 @@ drawer: {
         moves: [
             {
                 type: PartMove
-                progress: {
-                    type: warmup
-                    op: delay
-                    amount: 1
-                        } 
+                progress: warmup
             x: 5
             }
             ]
