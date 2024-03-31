@@ -22,12 +22,18 @@ drawer: {
       {
         suffix: -barrel1
         heatColor: ffe465
-        progress: {
-          type: recoil
-          other: warmup
-          amount: 0.5
-          op: blend
+        progress: recoil
+        moves: [
+            {
+                type: PartMove
+                progress: {
+                    type: warmup
+                    op: delay
+                    amount: 1
+                        } 
+            x: -5
             }
+            ]
         heatProgress: {
           type: recoil
           other: warmup
@@ -42,19 +48,24 @@ drawer: {
         suffix: -barrel2
         heatColor: ffe465
         recoilIndex: 1
-        progress: {
-          type: recoil
-          other: warmup
-          amount: 0.5
-          op: blend
+        progress: recoil
+        moves: [
+            {
+                type: PartMove
+                progress: {
+                    type: warmup
+                    op: delay
+                    amount: 1
+                        } 
+            x: 5
             }
+            ]
         heatProgress: {
           type: recoil
           other: warmup
           amount: 0.5
           op: blend
             }
-        moveX: 10
         moveY: -8
       }
       {
