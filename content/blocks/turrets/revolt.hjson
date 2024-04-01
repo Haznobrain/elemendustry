@@ -4,6 +4,7 @@ description: Fires a massive explosive charged helix.
 range: 256
 reload: 60
 shootSound: double-flame-medium
+outlineColor: 101010
 size: 4
 shootEffect: {
     type: MultiEffect
