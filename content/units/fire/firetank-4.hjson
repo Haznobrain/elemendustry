@@ -4,6 +4,7 @@ description: Fires a large laser beam and a bunch of slag bombs. Melts and evapo
 faceTarget: false
 omniMovement: false
     range: 168
+outlineColor: 101010
 parts: [
 {
   type: RegionPart
