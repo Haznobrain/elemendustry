@@ -3,6 +3,7 @@ minWarmup: 0.96
 shootWarmupSpeed: 0.03
 size: 5
 reload: 90
+outlineColor: 101010
 shoot: {
     type: ShootBarrel
       barrels: [
