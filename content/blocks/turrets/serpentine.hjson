@@ -5,6 +5,7 @@ name: Serpentine
 description: Fires a weaving piercing bullet at ennemy targets.
 size: 2
 category: turret
+outlineColor: 101010
 recoil: 2
 ammoTypes: {
   re-ignited-stone:{
