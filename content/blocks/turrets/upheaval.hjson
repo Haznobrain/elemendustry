@@ -1,6 +1,7 @@
 type: ItemTurret
 shootSound: medium-flame-shoot         
 size: 3
+outlineColor: 101010
 drawer: {
     type: DrawTurret
     basePrefix: fire-
