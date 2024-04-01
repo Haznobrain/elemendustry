@@ -2,6 +2,7 @@ type: legs
 legs: 4
 speed: 1.13
 health: 120
+outlineColor: 5c5a59
 immunities: [
   burning,
   melting,
@@ -14,7 +15,7 @@ isEnnemy: false
 drag: 0.25
 hitSize: 8
 name: Stromboli
-description: the most basic fire type core unit. Equipped with two healing beams but can't attack ennemy targets.
+description: the most basic fire type core unit. Equipped with an healing beam but can't attack ennemy targets.
 groundLayer: 75
 fogRadius: 0
 hovering: true
