@@ -3,6 +3,7 @@ type: tank
 description: Fires fragmenting fire bullets. Melts nearby ennemy buildings due to its molten core.
 faceTarget: false
 omniMovement: false
+outlineColor: 101010
 immunities: [
   burning,
   melting
@@ -84,6 +85,7 @@ rotateSpeed: 3
 weapons: [
   {
     shootSound: bang
+    outlineColor: 101010
     name: firetank-2-weapon
     reload: 90
     range: 176
