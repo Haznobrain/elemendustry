@@ -11,7 +11,7 @@ parts: [
   suffix: -glow
   blending: additive
   outline: false
-  color: ffed00
+  color: ffed00ff
     }
   ]
 immunities: [
