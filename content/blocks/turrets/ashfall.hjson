@@ -32,6 +32,7 @@ ammoTypes: {
       trailColor: f7df6f
       backColor: f7d16f
       frontColor: f7df6f
+      trailInterp: slope
         }
 }
 requirements: [
