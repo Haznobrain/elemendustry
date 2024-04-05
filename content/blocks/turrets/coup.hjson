@@ -252,6 +252,7 @@ ammoTypes: {
         fragVelocityMin: 1
         fragVelocityMax: 1
         fragRandomSpread: 0
+        trailInterp: slope
         fragBullet: {
             type: PointBulletType
             speed: 64
@@ -286,6 +287,7 @@ ammoTypes: {
                 smokeEffect: none
                 despawnEffect: none
                 damage: 0
+                trailInterp: slope
                 hitEffect: {
             type: MultiEffect
               effects: [
