@@ -283,17 +283,28 @@ weapons: [
         lightningLength: 3
         lightningDamage: 25
         lightningType:{
-            collids: false
-            type: LiquidBulletType
-            liquid: slag
-            splashDamage: 25
+            pierce: true
+            pierceBuilding: true
+            type: BasicBulletType
+            hitEffect: {
+              type: ExplosionEffect
+              waveRad: 24
+              smokeRad: 26
+              sparkRad: 26
+              }
+            puddleLiquid: slag
+            puddleAmount: 20
+            splashDamage: 50
             splashDamagePierce: true
             lifetime: 20
             speed: 2
             splashDamageRadius: 24
             trailLength: 20
             trailWidth: 4
-            orbSize: 8
+            height: 8
+            width: 8
+            frontColor: ffa524
+            sprite: circle
               }
         lightningDelay: 1.75
 }
