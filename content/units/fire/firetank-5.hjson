@@ -301,6 +301,7 @@ weapons: [
             splashDamageRadius: 24
             trailLength: 20
             trailWidth: 4
+            trailColor: ffa524
             height: 8
             width: 8
             frontColor: ffa524
