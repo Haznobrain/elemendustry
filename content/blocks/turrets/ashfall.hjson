@@ -11,6 +11,7 @@ ammoTypes: {
   incandescent-matter:{
       type: ArtilleryBulletType
       trailLength: 200
+      trailInterp: slope
       splashDamage: 20
       splashDamageRadius: 8
       status: burning
