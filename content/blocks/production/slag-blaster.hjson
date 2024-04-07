@@ -1,6 +1,9 @@
 type: GenericCrafter
 craftTime: 120
 outputItem: scorched-steel/3
+name: Slag Blaster
+description: Produces scorched steel from a few materials.
+category: crafting
 consumes: {
     power: 2
     items: [
