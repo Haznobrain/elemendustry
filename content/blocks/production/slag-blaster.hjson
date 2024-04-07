@@ -1,0 +1,52 @@
+type: GenericCrafter
+craftTime: 120
+outputItem: scorched-steel/3
+consumes: {
+    power: 2
+    items: [
+          incandescent-matter/5
+          pyroclastic-quartz/3
+        ]
+    liquids: [
+{
+  liquid: slag
+  amount: 0.5
+    }
+      {
+    liquid: sag
+    amount: 0.25
+      }
+]
+}
+size: 3
+hasLiquids: true
+hasItems: true
+liquidCapacity: 120
+itemCapacity: 40
+separateItemCapacity: true
+drawer: {
+      type: DrawMulti
+        drawers: [
+{
+  type: DrawRegion
+  suffix: -bottom
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+  }
+{
+  type: DrawPistons
+  sinMag: 4
+  sides: 2
+}
+{
+type: DrawDefault
+  }
+]
+}
+requirements: [
+      pyroclastic-quartz/40
+      incandescent-matter/80
+      ]
+research: stone-melter
