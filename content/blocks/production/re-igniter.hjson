@@ -3,7 +3,9 @@ craftEffect: {
     type: RadialEffect
     rotationSpacing: 36
     amount: 10
+    lengthOffset: 4
     effect: {
+        rotWithParent: false
         type: ParticleEffect
         length: 20
         particles: 1
