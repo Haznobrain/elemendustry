@@ -12,8 +12,9 @@ craftEffect: {
         colorFrom: e6e6e6
         colorTo: 6f7075
         sizeInterp: circleOut
-        interp: Pow2In
+        interp: pow2In
         useRotation: false
+        rotation: 45
         lifetime: 120
           }
 }
