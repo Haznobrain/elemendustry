@@ -1,0 +1,51 @@
+type: GenericCrafter
+craftEffect: {
+    type: RadialEffect
+    rotationSpacing: 36
+    amount: 10
+    effect: {
+        type: ParticleEffect
+        length: 20
+        particles: 1
+        lightOpacity: 0.5
+        randLength: false
+        colorFrom: e6e6e6
+        colorTo: 6f7075
+        sizeInterp: circleOut
+        interp: Pow2In
+        useRotation: false
+        lifetime: 120
+          }
+}
+consumes: {
+  power: 1
+      items: [
+        incandescent-matter/3
+        ]
+    liquids: [
+        slag/0.5
+        ]
+    }
+outputItem: re-ignited-stone/1
+craftTime: 20
+size: 2
+name: Re-igniter
+description: Makes incandescent matter burn again.
+requirements: [
+      pyroclastic-quartz/60
+    ]
+research: stone-melter
+drawer: {
+    type: DrawMulti
+        drawers: [
+{ 
+type: DrawDefault
+  }
+{
+  type: DrawHeatRegion
+  suffix: -heat
+  color: fff885
+  layer: -1
+    }
+]
+}
