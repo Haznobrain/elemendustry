@@ -48,7 +48,7 @@ type: DrawDefault
   type: DrawHeatRegion
   suffix: -heat
   color: fff885
-  layer: -1
+  layer: 60.1
     }
 ]
 }
