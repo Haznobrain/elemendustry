@@ -18,7 +18,7 @@ craftEffect: {
         sizeInterp: circleOut
         interp: pow2In
         useRotation: false
-        rotation: 45
+        rotation: 0
         lifetime: 120
           }
 }
